@@ -143,6 +143,7 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1683859212160</id>
 			<name></name>
 			<type>10</type>
@@ -153,6 +154,18 @@
 		</filter>
 		<filter>
 			<id>1683859212167</id>
+=======
+			<id>1683859678119</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1683859678128</id>
+>>>>>>> branch 'master' of https://github.com/NextsixAutomationTesting/agentportal.git
 			<name></name>
 			<type>6</type>
 			<matcher>
