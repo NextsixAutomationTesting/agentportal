@@ -6,15 +6,19 @@
    <elementGuidId>49818f4c-eb0b-4836-b60d-c19d2932df36</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/main/div/div/div[3]/div[2]/div/div[2]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Package: Pro Pack Maximum active property listings: 700 Maximum photos per property listing: 30' or . = 'Package: Pro Pack Maximum active property listings: 700 Maximum photos per property listing: 30')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e44571a7-6d29-4064-ac9c-0cb3336ea606</webElementGuid>
+      <webElementGuid>9c712601-13f4-4700-8e6f-8ad16516f320</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>card-body</value>
-      <webElementGuid>31d512cf-49fe-417a-9752-94bcfa7975d3</webElementGuid>
+      <webElementGuid>a2fe2e0b-971a-41d6-b522-7775a45e4592</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Package: Pro Pack Maximum active property listings: 700 Maximum photos per property listing: 30</value>
-      <webElementGuid>c1fefea2-7e6b-4930-96dc-ea3c1e2e1936</webElementGuid>
+      <webElementGuid>07bfbe87-f403-4315-bfb8-6119a46b9413</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/main[@class=&quot;cr-app bg-light&quot;]/div[@class=&quot;cr-content container-fluid&quot;]/div[@class=&quot;cr-page px-3 DashboardPage&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;mb-3 col-12 col-sm-6 col-md-6 col-lg-6&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]</value>
-      <webElementGuid>1ebb7c77-5a74-45eb-9245-1c441bccea40</webElementGuid>
+      <webElementGuid>bd0087a6-9d32-44b2-955e-08444767dd46</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/main/div/div/div[3]/div[2]/div/div[2]</value>
-      <webElementGuid>5d39161f-862f-41d1-9c1a-18b58c79c5f1</webElementGuid>
+      <webElementGuid>54b89736-77cb-40ed-bd51-d1e5687bf3aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Subscription'])[1]/following::div[1]</value>
-      <webElementGuid>44309fe2-7f9f-4ef9-ac5d-256950d8f041</webElementGuid>
+      <webElementGuid>761d4497-481f-42d8-90c8-ce52ecb76740</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Property Master'])[1]/following::div[4]</value>
-      <webElementGuid>e76275a1-b2de-4ac5-9fa2-50a2de6a3f17</webElementGuid>
+      <webElementGuid>572233ba-852b-43ab-9b77-8a67d3ab565e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]</value>
-      <webElementGuid>6bdef751-5478-4d9d-aaaf-e86d92732508</webElementGuid>
+      <webElementGuid>9f8f24bd-7ff5-4613-b1b3-bc67829e0784</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +90,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Package: Pro Pack Maximum active property listings: 700 Maximum photos per property listing: 30' or . = 'Package: Pro Pack Maximum active property listings: 700 Maximum photos per property listing: 30')]</value>
-      <webElementGuid>549bd424-e695-40d2-ba5d-e7121bde3432</webElementGuid>
+      <webElementGuid>2197c762-124b-45ab-9117-df019b47e18d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

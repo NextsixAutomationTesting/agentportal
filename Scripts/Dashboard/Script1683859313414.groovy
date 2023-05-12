@@ -37,8 +37,49 @@ WebUI.verifyElementText(findTestObject('Object Repository/dashboard/Page_The Nex
 WebUI.verifyElementText(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/div_My Subscription'), 
     'My Subscription')
 
-WebUI.verifyElementText(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/div_Package Pro Pack Maximum active propert_73c178'), 
-    'Package: Pro Pack Maximum active property listings: 700 Maximum photos per property listing: 30')
+WebUI.verifyElementText(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/div_Package Pro Pack'), 
+    'Package: Pro Pack')
+
+WebUI.verifyElementText(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/div_Maximum active property listings 700'), 
+    'Maximum active property listings: 700')
+
+WebUI.verifyElementText(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/div_Maximum photos per property listing 30'), 
+    'Maximum photos per property listing: 30')
 
 WebUI.click(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/div_My Active Properties Summary'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/p_Sale'), 
+    'Sale')
+
+WebUI.verifyElementText(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/h2_80'), '80')
+
+WebUI.verifyElementText(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/p_Rent'), 
+    'Rent')
+
+WebUI.verifyElementText(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/h2_19'), 
+    '19')
+
+WebUI.verifyElementText(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/p_Total'), 
+    'Total')
+
+WebUI.verifyElementText(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/h2_99'), 
+    '99')
+
+WebUI.click(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/div_My Outdated Properties Summary'))
+
+WebUI.click(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/a_Add Property'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/h1_My Properties'), 
+    'My Properties')
+
+WebUI.click(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/svg'))
+
+WebUI.click(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_dashboard'))
+
+WebUI.click(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/a_Add Property Master'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/h1_New Property Request'), 
+    'New Property Request')
+
+WebUI.click(findTestObject('Object Repository/dashboard/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_dashboard'))
 

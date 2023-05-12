@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_My SubscriptionPackage Pro Pack Maximum_964625</name>
+   <tag></tag>
+   <elementGuidId>114fe671-bf80-41d3-a718-15798c91f2e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/main/div/div/div[3]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bfe0c451-daab-42be-a90e-23f07ac5ebc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-3 col-12 col-sm-6 col-md-6 col-lg-6</value>
+      <webElementGuid>8a3c7b19-e8c2-489b-94a8-2f5ac42b7cb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My SubscriptionPackage: Pro Pack Maximum active property listings: 700 Maximum photos per property listing: 30</value>
+      <webElementGuid>6a8f14a6-84c7-44e8-be9f-8f0325b84364</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/main[@class=&quot;cr-app bg-light&quot;]/div[@class=&quot;cr-content container-fluid&quot;]/div[@class=&quot;cr-page px-3 DashboardPage&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;mb-3 col-12 col-sm-6 col-md-6 col-lg-6&quot;]</value>
+      <webElementGuid>2232c801-35cd-4187-8fdc-2ed2dd7c5733</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/main/div/div/div[3]/div[2]</value>
+      <webElementGuid>bb3c3067-1bfd-4445-a694-15cccbc69ada</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Property Master'])[1]/following::div[1]</value>
+      <webElementGuid>01d2454c-df35-4e15-b1bd-ee575a69aa99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Property'])[1]/following::div[2]</value>
+      <webElementGuid>fb34ef1f-d057-4c06-b429-fed8105f842d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]</value>
+      <webElementGuid>3dbb1829-6a24-4f13-a034-9d281afe0faf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'My SubscriptionPackage: Pro Pack Maximum active property listings: 700 Maximum photos per property listing: 30' or . = 'My SubscriptionPackage: Pro Pack Maximum active property listings: 700 Maximum photos per property listing: 30')]</value>
+      <webElementGuid>a8aacd91-0dd8-48a4-a39e-f4e34ba500a3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

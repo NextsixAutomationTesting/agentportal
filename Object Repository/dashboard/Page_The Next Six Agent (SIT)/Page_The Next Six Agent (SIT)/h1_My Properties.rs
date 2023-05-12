@@ -1,111 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Quick Access</name>
+   <name>h1_My Properties</name>
    <tag></tag>
-   <elementGuidId>73cf18b6-2434-49a1-aede-f93700cc5385</elementGuidId>
+   <elementGuidId>d9b4317d-4ae3-450d-b4ce-e4618d5f11ad</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.card-header</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>//div[@id='root']/main/div/div/div/h1</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Quick Access' or . = 'Quick Access')]</value>
+         <key>CSS</key>
+         <value>h1.h1.cr-page__title</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-      <webElementGuid>420e751b-6c61-4a86-a42a-4a6b95cde08e</webElementGuid>
+      <value>h1</value>
+      <webElementGuid>1983c868-91ce-485a-88be-84c64f2418cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>card-header</value>
-      <webElementGuid>09fb0c6e-3bae-4ab2-867e-f8936ec6337c</webElementGuid>
+      <value>h1 cr-page__title</value>
+      <webElementGuid>7c3c04e9-2d8a-4428-958a-b680337b38e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Quick Access</value>
-      <webElementGuid>71d60dff-0a6d-4d4d-adc7-e603862feb59</webElementGuid>
+      <value>My Properties</value>
+      <webElementGuid>efea1ef2-628d-4cf6-b7d5-2cfd003ab919</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/main[@class=&quot;cr-app bg-light&quot;]/div[@class=&quot;cr-content container-fluid&quot;]/div[@class=&quot;cr-page px-3 DashboardPage&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;mb-3 col-12 col-sm-6 col-md-6 col-lg-6&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]</value>
-      <webElementGuid>36474f50-c51a-426f-a27a-eac9c95938fd</webElementGuid>
+      <value>id(&quot;root&quot;)/main[@class=&quot;cr-app bg-light&quot;]/div[@class=&quot;cr-content container-fluid&quot;]/div[@class=&quot;cr-page px-3&quot;]/div[@class=&quot;cr-page__header&quot;]/h1[@class=&quot;h1 cr-page__title&quot;]</value>
+      <webElementGuid>5ddbcbbc-893b-4932-88f5-964dbf594184</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/main/div/div/div[3]/div/div/div</value>
-      <webElementGuid>b9332e69-0ac6-41cd-957a-2b4be3083d67</webElementGuid>
+      <value>//div[@id='root']/main/div/div/div/h1</value>
+      <webElementGuid>b99954e2-9ba6-4e27-8f4a-bd683c26294f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[2]/following::div[6]</value>
-      <webElementGuid>07b00ed2-f647-440c-b442-35f77bf92a38</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='about'])[1]/following::h1[1]</value>
+      <webElementGuid>e0ed855f-1a1e-4239-8950-36b4d8668fda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Property'])[1]/preceding::div[1]</value>
-      <webElementGuid>f7ec25ee-35dc-42c1-9d06-4c039fc19c4d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms of use'])[1]/following::h1[1]</value>
+      <webElementGuid>5c1e3c79-f2fd-42bb-a670-b7bf63daf3bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Property Master'])[1]/preceding::div[2]</value>
-      <webElementGuid>791564b1-7fb9-44b1-83ff-18bbcdf82aad</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nextsix'])[1]/preceding::h1[1]</value>
+      <webElementGuid>7cf65d7c-50b5-4672-adb7-d0f605ba51d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Quick Access']/parent::*</value>
-      <webElementGuid>193a0674-2fbe-4cd5-80b8-0099e673e395</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Properties'])[1]/preceding::h1[1]</value>
+      <webElementGuid>470e4d76-04b2-4d75-ba32-cbc3af6b4ac8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='My Properties']/parent::*</value>
+      <webElementGuid>e38f09b8-015a-43bc-b912-fc8c736b30b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div[3]/div/div/div</value>
-      <webElementGuid>98f6c0c3-65ec-41d4-ba02-0206ba0bd428</webElementGuid>
+      <value>//h1</value>
+      <webElementGuid>3e0af317-28c2-49eb-96c2-eb81517ae631</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Quick Access' or . = 'Quick Access')]</value>
-      <webElementGuid>c9c04bde-c416-4c7a-8d75-e4883595ab02</webElementGuid>
+      <value>//h1[(text() = 'My Properties' or . = 'My Properties')]</value>
+      <webElementGuid>dc0761cf-388f-4b83-8936-d64fa4e4469e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
