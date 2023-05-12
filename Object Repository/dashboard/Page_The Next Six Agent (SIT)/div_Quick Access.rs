@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Quick Access</name>
+   <tag></tag>
+   <elementGuidId>73cf18b6-2434-49a1-aede-f93700cc5385</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-header</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ff2ddaa8-f0a6-47cc-a5ac-3d1fdbcef694</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-header</value>
+      <webElementGuid>7eb0b14e-39c5-4eb1-9b33-525d3e3ae7ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Quick Access</value>
+      <webElementGuid>d9f9dd02-53e5-441c-b266-384a48416a86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/main[@class=&quot;cr-app bg-light&quot;]/div[@class=&quot;cr-content container-fluid&quot;]/div[@class=&quot;cr-page px-3 DashboardPage&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;mb-3 col-12 col-sm-6 col-md-6 col-lg-6&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-header&quot;]</value>
+      <webElementGuid>3cbf581e-0a30-481c-8609-b19a2d2aae15</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/main/div/div/div[3]/div/div/div</value>
+      <webElementGuid>87f8bf39-5469-47c0-9bf0-28f2a5a21cfc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[2]/following::div[6]</value>
+      <webElementGuid>d0ec37f9-a9f4-44e7-a867-242c14d25995</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Property'])[1]/preceding::div[1]</value>
+      <webElementGuid>f2491f3c-6d9e-453a-81e1-2f97e8c94c6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Property Master'])[1]/preceding::div[2]</value>
+      <webElementGuid>f0341786-c0c3-4285-9e65-c58585b29ed9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Quick Access']/parent::*</value>
+      <webElementGuid>b809be28-1cc9-41c4-9114-dff0b7e684b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]/div/div/div</value>
+      <webElementGuid>f7df0ee9-7ac5-4940-9ca0-1ee1bc3c407e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Quick Access' or . = 'Quick Access')]</value>
+      <webElementGuid>c36ec467-f208-4e27-aeb2-ac117e37f7bc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
