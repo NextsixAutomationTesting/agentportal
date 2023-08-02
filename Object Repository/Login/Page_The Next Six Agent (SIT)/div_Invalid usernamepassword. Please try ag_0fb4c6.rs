@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Invalid usernamepassword. Please try ag_0fb4c6</name>
+   <tag></tag>
+   <elementGuidId>ad493816-ad38-4233-a7b3-34db41514f60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.w-lg-500px.bg-body.rounded.shadow-sm.p-10.p-lg-15.mx-auto.auth-outlet-wrapper</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1582edf3-c538-45bc-a9a9-43abf1c7a635</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-lg-500px bg-body rounded shadow-sm p-10 p-lg-15 mx-auto auth-outlet-wrapper</value>
+      <webElementGuid>7a60b556-236d-44c2-93c7-29c594ca6134</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invalid username/password. Please try againUser Name / Email AddressPasswordforgot passwordSign InDon't have an account yet? Register here</value>
+      <webElementGuid>e966ed09-4fea-406d-a9f2-c0d24b2d8be9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;d-flex flex-column flex-column-fluid auth-layout-wrapper&quot;]/div[@class=&quot;d-flex flex-center flex-column flex-column-fluid p-10 pb-lg-20&quot;]/div[@class=&quot;w-lg-500px bg-body rounded shadow-sm p-10 p-lg-15 mx-auto auth-outlet-wrapper&quot;]</value>
+      <webElementGuid>7b21b003-83d0-4875-a225-4419c8831000</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div</value>
+      <webElementGuid>ca71c2af-f951-410b-885b-c16da46203f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div</value>
+      <webElementGuid>f89511e4-2939-4352-9bb9-4eeb1a0be2b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = concat(&quot;Invalid username/password. Please try againUser Name / Email AddressPasswordforgot passwordSign InDon&quot; , &quot;'&quot; , &quot;t have an account yet? Register here&quot;) or . = concat(&quot;Invalid username/password. Please try againUser Name / Email AddressPasswordforgot passwordSign InDon&quot; , &quot;'&quot; , &quot;t have an account yet? Register here&quot;))]</value>
+      <webElementGuid>417384d1-a4f7-4d6e-bea5-e6b0c1c1e360</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

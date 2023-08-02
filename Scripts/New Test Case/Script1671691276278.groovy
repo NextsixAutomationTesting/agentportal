@@ -17,3 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://sit-agent-v2.nextsix.com/')
+
+WebUI.verifyElementText(findTestObject('null'), 'USER NAME / EMAIL ADDRESS')
+
+WebUI.verifyElementText(findTestObject('null'), 
+    '')
+
+WebUI.verifyElementText(findTestObject('null'), 'Password')
+
+WebUI.verifyElementText(findTestObject('null'), 
+   '')
+WebUI.verifyElementText(findTestObject('null'), 
+    'forgot password')
+
+WebUI.rightClick(findTestObject('null'))
+
+WebUI.verifyElementText(findTestObject('null'), 'Sign In')
+
+WebUI.verifyElementText(findTestObject('null'), 
+    'Don\'t have an account yet? Register here')
+
