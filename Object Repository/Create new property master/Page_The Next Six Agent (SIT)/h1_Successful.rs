@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_Successful</name>
+   <tag></tag>
+   <elementGuidId>c153bdca-549d-40be-ae0c-aa1b9c218898</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='kt_app_content_container']/div/div/div[2]/div/div[3]/div/div/div/div[2]/div/div/h1</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.row.text-center.align-items-center.justify-content-center > h1.my-5.propmaster-text-main.propmaster-text-bold</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>f7e5dd67-7d81-4bec-9f5d-6f5588a9b989</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>my-5 propmaster-text-main propmaster-text-bold</value>
+      <webElementGuid>01add861-2495-4ef6-9f56-7cb7ae0f4b4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Successful</value>
+      <webElementGuid>670130a1-7d84-4125-b669-1091bc48d67b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kt_app_content_container&quot;)/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;page-statistic-wrapper&quot;]/div[@class=&quot;page-content-wrapper&quot;]/div[@class=&quot;stepper stepper-pills last&quot;]/div[@class=&quot;propmaster-wrapper-container&quot;]/div[@class=&quot;row propmaster-mx-inherit justify-content-center&quot;]/div[@class=&quot;col px-0&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row align-items-center justify-content-center current&quot;]/div[@class=&quot;col-12 col-md-8 my-5&quot;]/div[@class=&quot;row text-center align-items-center justify-content-center&quot;]/h1[@class=&quot;my-5 propmaster-text-main propmaster-text-bold&quot;]</value>
+      <webElementGuid>5308d78b-9671-4210-9855-5264ee6713f3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='kt_app_content_container']/div/div/div[2]/div/div[3]/div/div/div/div[2]/div/div/h1</value>
+      <webElementGuid>a5edd9d9-857a-4757-bdc6-439e2e2114f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submitting'])[2]/following::h1[1]</value>
+      <webElementGuid>a43e7207-fdac-4eaa-9516-9b6ed6bbf558</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/following::h1[2]</value>
+      <webElementGuid>eaf7abec-66fc-45ec-9755-dcca7ff22dea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back to New Property Request'])[1]/preceding::h1[1]</value>
+      <webElementGuid>6f16d625-9d65-4676-88f6-3af01eafdd92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/h1</value>
+      <webElementGuid>78b92792-7bb1-4f88-9ea2-eeefeea17077</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Successful' or . = 'Successful')]</value>
+      <webElementGuid>316b0900-1d32-4cd3-837b-a84f28d91042</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

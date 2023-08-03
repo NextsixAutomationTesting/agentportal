@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_0282023</name>
+   <tag></tag>
+   <elementGuidId>5ac6bcc2-fccd-4b27-b0bc-84ca3cbdc144</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='kt_app_content_container']/div/div/div[2]/div[2]/div/div/div/table/tbody/tr/td[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td:nth-of-type(3)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>088b5be6-6756-4663-83c0-80de8902553f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>02/8/2023</value>
+      <webElementGuid>d8a6f788-d732-40b6-a6c0-1e33426ad876</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kt_app_content_container&quot;)/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;page-statistic-wrapper&quot;]/div[@class=&quot;page-content-wrapper&quot;]/div[2]/div[@class=&quot;master-table-wrapper&quot;]/div[@class=&quot;infinite-scroll-component__outerdiv&quot;]/div[@class=&quot;infinite-scroll-component&quot;]/table[@class=&quot;db-pd-table-content table gs-4&quot;]/tbody[1]/tr[1]/td[3]</value>
+      <webElementGuid>5416d960-1a7c-4ab1-a3c6-c66375135f68</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='kt_app_content_container']/div/div/div[2]/div[2]/div/div/div/table/tbody/tr/td[3]</value>
+      <webElementGuid>8c746c87-ad37-46d2-8f83-629c79732c47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jalan Tiara Sendayan 2, Taman Tiara Sendayan Labu 71900 Negeri Sembilan Malaysia'])[1]/following::td[1]</value>
+      <webElementGuid>cb61371b-f052-47f9-9145-d789b8ed4d1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The Apartment 2'])[1]/following::td[2]</value>
+      <webElementGuid>3277afb9-5b8c-4d78-9165-34495f942fee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending'])[1]/preceding::td[1]</value>
+      <webElementGuid>73618846-bf5d-44b5-8867-4126137f6075</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skyluxe On The Park Bukit Jalil 3333'])[1]/preceding::td[2]</value>
+      <webElementGuid>6de15ea4-f7f8-42d6-9b50-b2ed414ea93f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='02/8/2023']/parent::*</value>
+      <webElementGuid>56fa47f6-3921-4d6b-ad80-880f28ac6c6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]</value>
+      <webElementGuid>f0c7e179-c90b-4416-9290-a88478d3a32c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '02/8/2023' or . = '02/8/2023')]</value>
+      <webElementGuid>604c832b-7386-40d2-a368-c6c179d22ec1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

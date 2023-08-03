@@ -21,22 +21,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://sit-agent-v2.nextsix.com/')
 
-WebUI.verifyElementText(findTestObject('null'), 'USER NAME / EMAIL ADDRESS')
+WebUI.setText(findTestObject('Object Repository/myprofile/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username'), 
+    'Ziqh')
 
-WebUI.verifyElementText(findTestObject('null'), 
-    '')
+WebUI.click(findTestObject('Object Repository/myprofile/Page_The Next Six Agent (SIT)/div_Invalid usernamepassword. Please try ag_0fb4c6'))
 
-WebUI.verifyElementText(findTestObject('null'), 'Password')
+WebUI.setEncryptedText(findTestObject('Object Repository/myprofile/Page_The Next Six Agent (SIT)/input_Password_password'), 
+    'aeHFOx8jV/A=')
 
-WebUI.verifyElementText(findTestObject('null'), 
-   '')
-WebUI.verifyElementText(findTestObject('null'), 
-    'forgot password')
+WebUI.click(findTestObject('Object Repository/myprofile/Page_The Next Six Agent (SIT)/span_Sign In'))
 
-WebUI.rightClick(findTestObject('null'))
+WebUI.click(findTestObject('Object Repository/myprofile/Page_The Next Six Agent (SIT)/span_My Profile'))
 
-WebUI.verifyElementText(findTestObject('null'), 'Sign In')
+WebUI.click(findTestObject('Object Repository/myprofile/Page_The Next Six Agent (SIT)/div_Pro PackPackageThe Roof RealtyCompany N_396039'))
 
-WebUI.verifyElementText(findTestObject('null'), 
-    'Don\'t have an account yet? Register here')
+WebUI.click(findTestObject('Object Repository/myprofile/Page_The Next Six Agent (SIT)/span_Titled Specialist'))
+
+WebUI.click(findTestObject('Object Repository/myprofile/Page_The Next Six Agent (SIT)/span_My Properties'))
+
+WebUI.click(findTestObject('Object Repository/myprofile/Page_The Next Six Agent (SIT)/span_New Property Request'))
+
+WebUI.click(findTestObject('Object Repository/myprofile/Page_The Next Six Agent (SIT)/span_My Properties'))
 

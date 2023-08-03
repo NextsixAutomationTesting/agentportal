@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Password reset request was sent success_b83dbd</name>
+   <tag></tag>
+   <elementGuidId>c7b3d8c2-a653-49e5-9cad-7087e23a8b10</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='kt_login_password_reset_form']/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.text-success</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0886bf4f-833e-4975-8953-344cf72e1e28</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-success</value>
+      <webElementGuid>be9961e0-675b-4ffc-8710-ed00476cb9b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Password reset request was sent successfully. Please check your email to reset your password.</value>
+      <webElementGuid>cb7a235e-08ad-4b15-9fcc-fa2911d24fdb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kt_login_password_reset_form&quot;)/div[@class=&quot;mb-lg-12 alert alert-success&quot;]/div[@class=&quot;text-success&quot;]</value>
+      <webElementGuid>45d25ec1-1e79-482b-89c1-7cea4cecc790</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='kt_login_password_reset_form']/div[2]/div</value>
+      <webElementGuid>d335f0f6-5b76-4643-9cfd-17d31bd04e5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Name / Email Address'])[1]/preceding::div[1]</value>
+      <webElementGuid>5552c300-6c10-4510-ad11-a3a111e9e2a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User name is required'])[1]/preceding::div[2]</value>
+      <webElementGuid>0e77918c-32a8-4b3f-9e61-eb76c7fbc29f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Password reset request was sent successfully. Please check your email to reset your password.']/parent::*</value>
+      <webElementGuid>24ebce7d-761f-4ee0-8025-f468f660871a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div</value>
+      <webElementGuid>a01239cf-5a3b-4e7e-8e75-1761afda47d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Password reset request was sent successfully. Please check your email to reset your password.' or . = 'Password reset request was sent successfully. Please check your email to reset your password.')]</value>
+      <webElementGuid>b12617de-245f-44ea-bbe1-8f32c59b49d5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

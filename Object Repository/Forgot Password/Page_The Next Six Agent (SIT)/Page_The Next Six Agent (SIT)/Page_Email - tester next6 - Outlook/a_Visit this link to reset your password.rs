@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Visit this link to reset your password</name>
+   <tag></tag>
+   <elementGuidId>6f48a362-67b7-4c3b-8cb6-dc44d84a00de</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ReadingPaneContainerId']/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div[3]/div/div/div/b[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>b:nth-of-type(2) > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1829f3b9-e132-413f-bd7d-c6ac21cef2f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://sit-verify.nextsix.com/reset/6ff3a0fdd5ddf39e0541b1154a7fa15d4462d253f5dfa92829a1a0c942b1289b</value>
+      <webElementGuid>9b1c936d-bc69-4b9c-ac51-80c7e2c50b87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>d73b0d4c-c707-49db-9cb9-52bd78afa9da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>noopener noreferrer</value>
+      <webElementGuid>1e778e01-d832-42a8-9868-236ea3a61199</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-auth</name>
+      <type>Main</type>
+      <value>NotApplicable</value>
+      <webElementGuid>12213805-840b-4968-822d-7aed0f1c053d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Visit this link to reset your password</value>
+      <webElementGuid>2fc9c200-4eb0-4353-a994-0235acbbc668</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ReadingPaneContainerId&quot;)/div[1]/div[@class=&quot;g_zET&quot;]/div[@class=&quot;MtujV WWy1F&quot;]/div[@class=&quot;L72vd&quot;]/div[@class=&quot;Q8TCC yyYQP customScrollBar&quot;]/div[2]/div[@class=&quot;aVla3&quot;]/div[1]/div[1]/div[@class=&quot;wide-content-host&quot;]/div[@class=&quot;SlLx9 WWy1F byzS1 WWy1F&quot;]/div[@class=&quot;XbIp4 jmmB7 GNqVo yxtKT allowTextSelection&quot;]/div[1]/div[@class=&quot;rps_7e96&quot;]/div[1]/b[2]/a[1]</value>
+      <webElementGuid>e8e7110a-5ee6-45bd-a50c-1ae32377d13e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ReadingPaneContainerId']/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div[3]/div/div/div/b[2]/a</value>
+      <webElementGuid>999134ec-acb8-483b-bd84-3f5ea0ba4613</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Visit this link to reset your password')]</value>
+      <webElementGuid>ba248743-4567-448d-8f1b-5dcac888512b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nextsix Agent App / Nextsix Agent Portal'])[1]/following::a[1]</value>
+      <webElementGuid>cead4fad-e35a-459d-91ac-9f89c38e9c7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hi Franca Light,'])[1]/following::a[1]</value>
+      <webElementGuid>49382e50-edc0-4a02-b895-ba61fa6117f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This link is only valid for the next 24 hours'])[1]/preceding::a[1]</value>
+      <webElementGuid>dea0af9f-7d25-40fd-89d7-7aa5fa0a7001</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Having trouble?'])[1]/preceding::a[1]</value>
+      <webElementGuid>24e0b39d-07f0-4612-930d-69a501002d92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Visit this link to reset your password']/parent::*</value>
+      <webElementGuid>877dcc59-983e-405c-a123-66304c7b0e4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://sit-verify.nextsix.com/reset/6ff3a0fdd5ddf39e0541b1154a7fa15d4462d253f5dfa92829a1a0c942b1289b')]</value>
+      <webElementGuid>584867d8-d41d-4084-b969-ac8abaa492cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//b[2]/a</value>
+      <webElementGuid>eaec05e4-6afe-444d-9c14-998552b53a3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://sit-verify.nextsix.com/reset/6ff3a0fdd5ddf39e0541b1154a7fa15d4462d253f5dfa92829a1a0c942b1289b' and (text() = 'Visit this link to reset your password' or . = 'Visit this link to reset your password')]</value>
+      <webElementGuid>e8973d76-737d-47a8-8a51-86bec729ce1f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

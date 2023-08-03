@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select Area</name>
+   <tag></tag>
+   <elementGuidId>83cacfc2-ba27-4b62-9097-319c82da27b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react-select-14-placeholder']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Select Area' or . = 'Select Area')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#react-select-14-placeholder</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d0e08d53-942d-4dfd-b5b8-47f5666eabe0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>propmaster-select__placeholder css-1bkpx9o-placeholder</value>
+      <webElementGuid>b0b0789c-ad3e-45f7-86bb-a6a9b8d50d3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>react-select-14-placeholder</value>
+      <webElementGuid>a7ff86bd-7e2d-4396-b91e-c4eb10c402a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Area</value>
+      <webElementGuid>7dc33ba7-062f-4071-b26f-804d68c4486d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-select-14-placeholder&quot;)</value>
+      <webElementGuid>0e9b0e9f-d5d5-446a-aee7-7aafcb496e11</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='react-select-14-placeholder']</value>
+      <webElementGuid>379178bf-1dfa-49c4-9549-73dbdd5439c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='propArea']/div/div/div</value>
+      <webElementGuid>482295af-3427-4960-ae40-996172667dd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Area *'])[1]/following::div[4]</value>
+      <webElementGuid>f200ef4e-3308-4e1e-b6c1-840fe10c5165</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Negeri Sembilan'])[1]/following::div[10]</value>
+      <webElementGuid>8a5ea94e-c1e8-4119-a553-76997f98b6ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ampangan'])[1]/preceding::div[4]</value>
+      <webElementGuid>4fdd2dc5-6818-49ea-9568-a4a8c1f412e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bahau'])[1]/preceding::div[5]</value>
+      <webElementGuid>7987a301-d670-4f84-bc70-ed0296308708</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Select Area']/parent::*</value>
+      <webElementGuid>a846ee53-7a51-4e27-ae30-a7c436fcf7ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div/div/div/div/div/div</value>
+      <webElementGuid>932839b6-236e-4adf-8aae-960e6204dc0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'react-select-14-placeholder' and (text() = 'Select Area' or . = 'Select Area')]</value>
+      <webElementGuid>94e0087f-4bbe-4ddf-b54a-4c22bb335b53</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

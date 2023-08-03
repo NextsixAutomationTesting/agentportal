@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Property Name</name>
+   <tag></tag>
+   <elementGuidId>48a731ca-2602-4fb3-af3d-d6ca1a02ef61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='kt_app_content_container']/div/div/div[2]/div/div[3]/div[2]/div/div/form/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.row.propmaster-input-box</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>22bbc0b3-1d7e-46d6-a9c5-e3f6f5164241</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>row propmaster-input-box</value>
+      <webElementGuid>e8141d6f-83ef-417d-8d78-a005923fd813</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Property Name *</value>
+      <webElementGuid>ae0b899f-e854-4f9e-a646-9975eafd001f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kt_app_content_container&quot;)/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;page-statistic-wrapper&quot;]/div[@class=&quot;page-content-wrapper&quot;]/div[@class=&quot;stepper stepper-pills&quot;]/div[@class=&quot;propmaster-wrapper-container&quot;]/div[@class=&quot;row propmaster-mx-inherit justify-content-center&quot;]/div[@class=&quot;col px-0&quot;]/div[@class=&quot;container&quot;]/form[@class=&quot;row current&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row propmaster-input-box&quot;]</value>
+      <webElementGuid>04c389a0-f84a-411d-82bd-f006eab6fe3c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='kt_app_content_container']/div/div/div[2]/div/div[3]/div[2]/div/div/form/div/div</value>
+      <webElementGuid>e364667f-ee50-4896-a2f0-a736363ca83e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NOTE'])[1]/following::div[5]</value>
+      <webElementGuid>053b83c5-f0d9-4c14-9231-643ad6b09fdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Step 4'])[1]/following::div[11]</value>
+      <webElementGuid>3874458e-627c-45a3-a593-62771a5cc1d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Property Category *'])[1]/preceding::div[2]</value>
+      <webElementGuid>b7335d9a-d993-48fa-81d5-172372dd1eb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div</value>
+      <webElementGuid>c595a9ea-02d7-4bc6-9198-d38e1c36e6eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Property Name *' or . = 'Property Name *')]</value>
+      <webElementGuid>1bc2b5fa-803f-4bdf-afd7-8cc2d066a499</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

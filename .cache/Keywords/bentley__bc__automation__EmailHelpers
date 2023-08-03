@@ -1,0 +1,14 @@
+{
+  "keywordFileContentHash": "DEEBEC0617BDB129CE12E2A3FE6DFE08",
+  "keywordClasses": [
+    {
+      "name": "bentley.bc.automation.EmailHelpers",
+      "keywordMethods": []
+    },
+    {
+      "name": "bentley.bc.automation.EmailHelpers$EmailFolder",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

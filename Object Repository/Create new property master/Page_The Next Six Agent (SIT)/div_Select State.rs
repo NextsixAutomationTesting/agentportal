@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select State</name>
+   <tag></tag>
+   <elementGuidId>3c70fac0-e8d6-4191-b230-423960a32829</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react-select-13-placeholder']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Select State' or . = 'Select State')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#react-select-13-placeholder</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>964d6b7d-0da4-484c-9e3d-7450aeb15577</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>propmaster-select__placeholder css-1bkpx9o-placeholder</value>
+      <webElementGuid>24bdbb9b-97f1-4ac8-82df-aa421ca1caea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>react-select-13-placeholder</value>
+      <webElementGuid>361f3ad9-cec1-4593-a5a7-4016c9e10b0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select State</value>
+      <webElementGuid>6b4bfccb-eeec-4246-9105-f16a8d27abdb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-select-13-placeholder&quot;)</value>
+      <webElementGuid>27107b66-7d60-464d-8ba5-d1274b816a6a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='react-select-13-placeholder']</value>
+      <webElementGuid>5a0b3ee5-bda9-44be-bb84-a634e3ef6c7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='propState']/div/div/div</value>
+      <webElementGuid>205b04cf-6756-438f-a934-7e22063e323a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='State *'])[1]/following::div[4]</value>
+      <webElementGuid>cbbd8448-eab3-457c-9cde-9e47db89a3a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Postcode *'])[1]/following::div[8]</value>
+      <webElementGuid>164a6ed1-e1b7-4110-bc1d-04327d0cb470</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wilayah Persekutuan Kuala Lumpur'])[1]/preceding::div[4]</value>
+      <webElementGuid>cbe2ef74-0b32-48f0-af7e-349d1d5304b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Johor'])[1]/preceding::div[5]</value>
+      <webElementGuid>2b2ac2bc-a6da-4efd-9802-fcc586e4ae7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Select State']/parent::*</value>
+      <webElementGuid>79b394c0-15b7-414d-afdb-8ded0bb40682</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form[2]/div/div[4]/div/div/div/div/div/div/div</value>
+      <webElementGuid>6a0abc42-915c-49f5-86fe-fa79acf6d010</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'react-select-13-placeholder' and (text() = 'Select State' or . = 'Select State')]</value>
+      <webElementGuid>2f95f66a-76d9-450d-aeaa-f9ca158baffa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

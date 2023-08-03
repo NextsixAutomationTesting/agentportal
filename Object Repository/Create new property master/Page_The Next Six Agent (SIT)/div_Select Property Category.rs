@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Select Property Category</name>
+   <tag></tag>
+   <elementGuidId>7fe39485-4f31-466f-8f90-97afabd3457b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react-select-9-placeholder']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Select Property Category' or . = 'Select Property Category')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#react-select-9-placeholder</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2e331a67-ecef-4dfe-9bcb-372af8a7e54e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>propmaster-select__placeholder css-1bkpx9o-placeholder</value>
+      <webElementGuid>031cbad5-2b2b-4cd2-9868-e12d995a2407</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>react-select-9-placeholder</value>
+      <webElementGuid>6e6b172e-928c-487d-9a13-907b4f1cf707</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Property Category</value>
+      <webElementGuid>138e1fe6-7694-43a2-916b-14a1eea98776</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-select-9-placeholder&quot;)</value>
+      <webElementGuid>99370d69-a94c-4ae8-b7fc-f55658fbe1e1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='react-select-9-placeholder']</value>
+      <webElementGuid>c3efe0a6-7880-407b-869f-0b20da54c472</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='propCat']/div/div/div</value>
+      <webElementGuid>3beb27d0-7972-487f-857c-dc8008d50cc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Property Category *'])[1]/following::div[4]</value>
+      <webElementGuid>54a5f0a4-63e9-406f-8611-c63165e758aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Property Name *'])[1]/following::div[6]</value>
+      <webElementGuid>3c75d363-59b5-4174-8fa1-1d6d4a3b4448</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apartment/Flat'])[1]/preceding::div[4]</value>
+      <webElementGuid>4a0e4d36-237a-4bfa-a10a-87685017ccfb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Condo/Serviced Residence'])[1]/preceding::div[5]</value>
+      <webElementGuid>176bbd43-4e23-4e31-bfee-792aaef2dc1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Select Property Category']/parent::*</value>
+      <webElementGuid>efa161ce-2e3b-46a3-9189-61bcbe691804</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div[2]/div/div/div/div/div</value>
+      <webElementGuid>e8f9d25f-c628-4ad5-8a37-0f566ead7ed4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'react-select-9-placeholder' and (text() = 'Select Property Category' or . = 'Select Property Category')]</value>
+      <webElementGuid>d0b2b193-629d-4dc4-80da-e891fe03669b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

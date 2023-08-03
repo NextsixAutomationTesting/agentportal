@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Are you sure you want to submit this request</name>
+   <tag></tag>
+   <elementGuidId>b60082f2-3c51-4f2b-99fe-ae4cdafd7ccd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='confirmModal']/div/div/div[2]/div/div/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.propmaster-modal-body-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>16f15d4b-c299-4c33-b0fd-28549e472f6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>propmaster-modal-body-text</value>
+      <webElementGuid>39b5311f-1acd-408f-9f06-ceec8d0373ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Are you sure you want to submit this request?</value>
+      <webElementGuid>ac073020-ad6c-424b-8f24-db768ab6f4da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;confirmModal&quot;)/div[@class=&quot;modal-dialog modal-dialog-centered&quot;]/div[@class=&quot;modal-content propmaster-modal&quot;]/div[@class=&quot;modal-body py-0&quot;]/div[@class=&quot;row align-items-center justify-content-center&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12 text-center&quot;]/p[@class=&quot;propmaster-modal-body-text&quot;]</value>
+      <webElementGuid>eaa02efb-b7a2-46bd-b630-a14524875e9a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='confirmModal']/div/div/div[2]/div/div/div[2]/p</value>
+      <webElementGuid>e0a8daab-2dec-4588-83ea-0b5531e8f995</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmation modal'])[1]/following::p[2]</value>
+      <webElementGuid>350dc44f-bb30-43e8-90ff-3e442b5dd4fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Publish'])[1]/following::p[2]</value>
+      <webElementGuid>5f7b882d-e2ff-4589-aa62-a5035fbc4304</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::p[1]</value>
+      <webElementGuid>c2268ac8-08e1-43b2-a5af-6c2c1ee88c4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/preceding::p[1]</value>
+      <webElementGuid>c8d3bd43-a1a4-491e-8296-14d56c2186c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Are you sure you want to submit this request?']/parent::*</value>
+      <webElementGuid>883cc021-ca0e-4d55-83df-8ffc25ea189a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/p</value>
+      <webElementGuid>83a805af-01ca-4305-be20-5e7531eb4cf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Are you sure you want to submit this request?' or . = 'Are you sure you want to submit this request?')]</value>
+      <webElementGuid>78acfd5f-2a77-4989-9068-ceb6fc14f972</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

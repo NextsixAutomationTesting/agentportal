@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Pending</name>
+   <tag></tag>
+   <elementGuidId>5a95a0c1-8034-465b-9d72-18fb0c283498</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='kt_app_content_container']/div/div/div[2]/div[2]/div/div/div/table/tbody/tr/td[4]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.db-pd-status.status-pending</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e1ea7968-b1e0-457f-ad6b-8b59877f93a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>db-pd-status status-pending</value>
+      <webElementGuid>7b65a2ae-bfac-4fa9-a21d-97bf28edb030</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pending</value>
+      <webElementGuid>2116e101-d989-402e-898f-3d736f11a4b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kt_app_content_container&quot;)/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;page-statistic-wrapper&quot;]/div[@class=&quot;page-content-wrapper&quot;]/div[2]/div[@class=&quot;master-table-wrapper&quot;]/div[@class=&quot;infinite-scroll-component__outerdiv&quot;]/div[@class=&quot;infinite-scroll-component&quot;]/table[@class=&quot;db-pd-table-content table gs-4&quot;]/tbody[1]/tr[1]/td[4]/span[@class=&quot;db-pd-status status-pending&quot;]</value>
+      <webElementGuid>a4318951-3d94-42b3-b7ae-013f9b8dd281</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='kt_app_content_container']/div/div/div[2]/div[2]/div/div/div/table/tbody/tr/td[4]/span</value>
+      <webElementGuid>68bceb6f-26f4-40f5-9669-9759ff2a4c8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jalan Tiara Sendayan 2, Taman Tiara Sendayan Labu 71900 Negeri Sembilan Malaysia'])[1]/following::span[1]</value>
+      <webElementGuid>a55cb2ab-c7a7-456e-9680-1a57695c4f72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The Apartment 2'])[1]/following::span[1]</value>
+      <webElementGuid>563ad866-6712-4796-9d64-bcb9206c04c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skyluxe On The Park Bukit Jalil 3333'])[1]/preceding::span[1]</value>
+      <webElementGuid>78d49b7f-0774-41a6-8b59-57fd441c4f59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approved'])[1]/preceding::span[1]</value>
+      <webElementGuid>77bda5e8-f440-4f08-9848-a23a6cac2920</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pending']/parent::*</value>
+      <webElementGuid>9cd131ce-8f7a-4db3-92c2-0898dd04c268</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/span</value>
+      <webElementGuid>99a9dd4d-e8cb-4bd7-a2e3-c23def2fb594</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Pending' or . = 'Pending')]</value>
+      <webElementGuid>e2c09b26-8a93-4f03-8df0-b611d06ce612</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

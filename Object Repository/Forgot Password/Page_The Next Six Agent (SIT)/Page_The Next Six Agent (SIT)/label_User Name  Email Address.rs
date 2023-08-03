@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_User Name  Email Address</name>
+   <tag></tag>
+   <elementGuidId>67a5c2fc-703d-44c6-891a-bddf3df3f5db</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='kt_login_password_reset_form']/div[2]/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.form-label.auth-input-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>80ff5228-0c38-4be8-abe4-545b388785cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-label auth-input-text</value>
+      <webElementGuid>04388988-5abe-4a3c-93a1-8639944f1731</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>User Name / Email Address</value>
+      <webElementGuid>2febcfb0-908f-4345-869d-e46d0009ea1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kt_login_password_reset_form&quot;)/div[@class=&quot;fv-row mb-3&quot;]/div[@class=&quot;auth-input-box&quot;]/label[@class=&quot;form-label auth-input-text&quot;]</value>
+      <webElementGuid>d4fa2787-9bb5-436f-8256-980166195eb9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='kt_login_password_reset_form']/div[2]/div/label</value>
+      <webElementGuid>a2bcf44c-e99e-4438-a96d-7f9f924295a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User name is required'])[1]/preceding::label[1]</value>
+      <webElementGuid>e0c5ff24-e2d6-4d18-8cb4-72e6069860e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='back to sign in'])[1]/preceding::label[1]</value>
+      <webElementGuid>b50ec6b1-f99f-4e77-8b8e-559731de7e3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='User Name / Email Address']/parent::*</value>
+      <webElementGuid>dfb73467-82af-40b3-ad5b-66a9dd4fa0f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>13b98ca5-0af3-4dc9-aec3-7838ed3decec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'User Name / Email Address' or . = 'User Name / Email Address')]</value>
+      <webElementGuid>3a1a44fe-93cc-4f94-9115-68d46c237cef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
