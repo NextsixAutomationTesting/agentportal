@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Test" time="128.191" tests="4" failures="2" errors="0">
+   <testsuite name="Regression Test" tests="4" failures="2" errors="0" time="128.191" skipped="0" timestamp="2023-08-07 09:07:50" hostname="NextSix - LAPTOP-1RKM9NHJ" id="Test Suites/Regression Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\git\\agentportal\\Reports\\20230807_090747\\Regression Test\\20230807_090747"/>
+         <property name="logFiles" value="C:\\Users\\user\\git\\agentportal\\Reports\\20230807_090747\\Regression Test\\20230807_090747\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\user\\git\\agentportal\\Reports\\20230807_090747\\Regression Test\\20230807_090747\\1691370571877.png, C:\\Users\\user\\git\\agentportal\\Reports\\20230807_090747\\Regression Test\\20230807_090747\\1691370598568.png"/>
+         <property name="hostName" value="NextSix - LAPTOP-1RKM9NHJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.3.102"/>
+         <property name="sessionId" value="47a7f12f8ed09ff80da85ed53bfcfb51"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Forgot password - Public Agent" time="66.081" classname="Test Cases/Forgot password - Public Agent" status="PASSED">
+         <system-out><![CDATA[2023-08-07 09:07:50 - [TEST_CASE][PASSED] - Test Cases/Forgot password - Public Agent: Test Cases/Forgot password - Public Agent
+
+2023-08-07 09:07:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-07 09:07:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-07 09:07:51 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-08-07 09:07:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-07 09:07:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-07 09:07:53 - [TEST_STEP][PASSED] - navigateToUrl("https://sit-agent-v2.nextsix.com/"): Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-07 09:07:54 - [MESSAGE][PASSED] - Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-07 09:07:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/button_forgot password")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/button_forgot password' is clicked on
+
+2023-08-07 09:07:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/button_forgot password' is clicked on
+
+2023-08-07 09:07:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username"), "testernext61@outlook.com"): Text 'testernext61@outlook.com' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username'
+
+2023-08-07 09:07:55 - [MESSAGE][PASSED] - Text 'testernext61@outlook.com' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username'
+
+2023-08-07 09:07:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/submit")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/submit' is clicked on
+
+2023-08-07 09:07:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/submit' is clicked on
+
+2023-08-07 09:07:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/successtext"), "Password reset request was sent successfully. Please check your email to reset your password."): Actual text and expected text of test object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/successtext' are matched.
+
+2023-08-07 09:07:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/successtext' are matched.
+
+2023-08-07 09:07:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username'
+
+2023-08-07 09:07:57 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username'
+
+2023-08-07 09:07:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username'
+
+2023-08-07 09:07:57 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username'
+
+2023-08-07 09:07:57 - [TEST_STEP][PASSED] - navigateToUrl("https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=15&ct=1690958366&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fcobrandid%3dab0455a0-8d03-46b9-b18b-df2f57b9e44c%26nlp%3d1%26deeplink%3dowa%252f%26RpsCsrfState%3d47550ee8-a8a1-75fe-368f-063c1837e2dd&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c"): Navigate to 'https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=15&ct=1690958366&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fcobrandid%3dab0455a0-8d03-46b9-b18b-df2f57b9e44c%26nlp%3d1%26deeplink%3dowa%252f%26RpsCsrfState%3d47550ee8-a8a1-75fe-368f-063c1837e2dd&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c' successfully
+
+2023-08-07 09:07:58 - [MESSAGE][PASSED] - Navigate to 'https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=15&ct=1690958366&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fcobrandid%3dab0455a0-8d03-46b9-b18b-df2f57b9e44c%26nlp%3d1%26deeplink%3dowa%252f%26RpsCsrfState%3d47550ee8-a8a1-75fe-368f-063c1837e2dd&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c' successfully
+
+2023-08-07 09:07:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/outlooklogin"), "testernext61@outlook.com"): Text 'testernext61@outlook.com' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/outlooklogin'
+
+2023-08-07 09:07:59 - [MESSAGE][PASSED] - Text 'testernext61@outlook.com' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/outlooklogin'
+
+2023-08-07 09:07:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/nextbutton")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/nextbutton' is clicked on
+
+2023-08-07 09:07:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/nextbutton' is clicked on
+
+2023-08-07 09:07:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/outlookpassword"), "Next65678"): Text 'Next65678' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/outlookpassword'
+
+2023-08-07 09:08:01 - [MESSAGE][PASSED] - Text 'Next65678' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/outlookpassword'
+
+2023-08-07 09:08:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/nextbutton")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/nextbutton' is clicked on
+
+2023-08-07 09:08:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/nextbutton' is clicked on
+
+2023-08-07 09:08:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/button_no")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/button_no' is clicked on
+
+2023-08-07 09:08:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/button_no' is clicked on
+
+2023-08-07 09:08:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-07 09:08:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-07 09:08:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/Page_Email - tester next6 - Outlook/span_Reset your password")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/Page_Email - tester next6 - Outlook/span_Reset your password' is clicked on
+
+2023-08-07 09:08:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/Page_Email - tester next6 - Outlook/span_Reset your password' is clicked on
+
+2023-08-07 09:08:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/Page_Email - tester next6 - Outlook/Page_Email - tester next6 - Outlook/a_Visit this link to reset your password")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/Page_Email - tester next6 - Outlook/Page_Email - tester next6 - Outlook/a_Visit this link to reset your password' is clicked on
+
+2023-08-07 09:08:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/Page_Email - tester next6 - Outlook/Page_Email - tester next6 - Outlook/a_Visit this link to reset your password' is clicked on
+
+2023-08-07 09:08:47 - [TEST_STEP][PASSED] - switchToWindowIndex("1"): Switched to window with index: '1'
+
+2023-08-07 09:08:47 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-08-07 09:08:47 - [TEST_STEP][PASSED] - newpassword = RandomStringUtils.randomAlphabetic(6): null
+
+2023-08-07 09:08:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/newusername"), newpassword): Text 'rqpjll' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/newusername'
+
+2023-08-07 09:08:49 - [MESSAGE][PASSED] - Text 'rqpjll' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/newusername'
+
+2023-08-07 09:08:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/confirmpassword"), newpassword): Text 'rqpjll' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/confirmpassword'
+
+2023-08-07 09:08:49 - [MESSAGE][PASSED] - Text 'rqpjll' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/confirmpassword'
+
+2023-08-07 09:08:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/submitbutton")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/submitbutton' is clicked on
+
+2023-08-07 09:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/submitbutton' is clicked on
+
+2023-08-07 09:08:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/successfulmessage"), "Successfully change password, please login via app."): Actual text and expected text of test object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/successfulmessage' are matched.
+
+2023-08-07 09:08:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/successfulmessage' are matched.
+
+2023-08-07 09:08:50 - [TEST_STEP][PASSED] - switchToWindowIndex("0"): Switched to window with index: '0'
+
+2023-08-07 09:08:50 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-08-07 09:08:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/deleteunbox")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/deleteunbox' is clicked on
+
+2023-08-07 09:08:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/deleteunbox' is clicked on
+
+2023-08-07 09:08:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-07 09:08:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-07 09:08:53 - [TEST_STEP][PASSED] - navigateToUrl("https://sit-agent-v2.nextsix.com/"): Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-07 09:08:53 - [MESSAGE][PASSED] - Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-07 09:08:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username"), "testernext61@outlook.com"): Text 'testernext61@outlook.com' is set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username'
+
+2023-08-07 09:08:54 - [MESSAGE][PASSED] - Text 'testernext61@outlook.com' is set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username'
+
+2023-08-07 09:08:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password"), newpassword): Text 'rqpjll' is set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-07 09:08:55 - [MESSAGE][PASSED] - Text 'rqpjll' is set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-07 09:08:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In")): Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In' is clicked on
+
+2023-08-07 09:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In' is clicked on
+
+2023-08-07 09:08:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com"), "testernext61@outlook.com"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com' are matched.
+
+2023-08-07 09:08:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Forgot password -TRR" time="35.396" classname="Test Cases/Forgot password -TRR" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Forgot password -TRR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Ziqh' of object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Forgot password -TRR.run(Forgot password -TRR:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691370467480.run(TempTestSuite1691370467480.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username' located by '//*[@type = 'username' and @placeholder = 'user name' and @name = 'username']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-07 09:08:56 - [TEST_CASE][FAILED] - Test Cases/Forgot password -TRR: Test Cases/Forgot password -TRR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Ziqh' of object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Forgot password -TRR.run(Forgot password -TRR:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691370467480.run(TempTestSuite1691370467480.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username' located by '//*[@type = 'username' and @placeholder = 'user name' and @name = 'username']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-07 09:08:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-07 09:08:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-07 09:08:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-07 09:08:57 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-08-07 09:08:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-07 09:08:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-07 09:08:59 - [TEST_STEP][PASSED] - navigateToUrl("https://sit-agent-v2.nextsix.com/"): Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-07 09:08:59 - [MESSAGE][PASSED] - Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-07 09:08:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/button_forgot password")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/button_forgot password' is clicked on
+
+2023-08-07 09:09:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/button_forgot password' is clicked on
+
+2023-08-07 09:09:00 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username"), "Ziqh"): Unable to set text 'Ziqh' of object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Ziqh' of object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Forgot password -TRR.run(Forgot password -TRR:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691370467480.run(TempTestSuite1691370467480.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username' located by '//*[@type = 'username' and @placeholder = 'user name' and @name = 'username']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1690953897808.run(Script1690953897808.groovy:26)
+	... 13 more
+)
+
+2023-08-07 09:09:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@type = 'username' and @placeholder = 'user name' and @name = 'username']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-08-07 09:09:32 - [MESSAGE][FAILED] - Unable to set text 'Ziqh' of object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Ziqh' of object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Forgot password -TRR.run(Forgot password -TRR:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691370467480.run(TempTestSuite1691370467480.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username' located by '//*[@type = 'username' and @placeholder = 'user name' and @name = 'username']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1690953897808.run(Script1690953897808.groovy:26)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\user\\git\\agentportal\\Reports\\20230807_090747\\Regression Test\\20230807_090747\\1691370571877.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-07 09:08:56 - [TEST_CASE][FAILED] - Test Cases/Forgot password -TRR: Test Cases/Forgot password -TRR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Ziqh' of object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Forgot password -TRR.run(Forgot password -TRR:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691370467480.run(TempTestSuite1691370467480.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username' located by '//*[@type = 'username' and @placeholder = 'user name' and @name = 'username']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login (New)" time="8.807" classname="Test Cases/Login (New)" status="PASSED">
+         <system-out><![CDATA[2023-08-07 09:09:32 - [TEST_CASE][PASSED] - Test Cases/Login (New): Test Cases/Login (New)
+
+2023-08-07 09:09:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-07 09:09:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-07 09:09:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-07 09:09:33 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-08-07 09:09:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-07 09:09:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-07 09:09:34 - [TEST_STEP][PASSED] - navigateToUrl("https://sit-agent-v2.nextsix.com/"): Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-07 09:09:35 - [MESSAGE][PASSED] - Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-07 09:09:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/label_User Name  Email Address"), "USER NAME / EMAIL ADDRESS"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/label_User Name  Email Address' are matched.
+
+2023-08-07 09:09:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/label_User Name  Email Address' are matched.
+
+2023-08-07 09:09:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username"), ""): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username' are matched.
+
+2023-08-07 09:09:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username' are matched.
+
+2023-08-07 09:09:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/label_Password"), "PASSWORD"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/label_Password' are matched.
+
+2023-08-07 09:09:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/label_Password' are matched.
+
+2023-08-07 09:09:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password"), ""): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password' are matched.
+
+2023-08-07 09:09:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password' are matched.
+
+2023-08-07 09:09:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/button_forgot password"), "forgot password"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/button_forgot password' are matched.
+
+2023-08-07 09:09:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/button_forgot password' are matched.
+
+2023-08-07 09:09:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In"), "Sign In"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In' are matched.
+
+2023-08-07 09:09:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In' are matched.
+
+2023-08-07 09:09:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/span_Dont have an account yetRegister here"), "Don't have an account yet? Register here"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/span_Dont have an account yetRegister here' are matched.
+
+2023-08-07 09:09:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/span_Dont have an account yetRegister here' are matched.
+
+2023-08-07 09:09:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username"), "Ziqh"): Text 'Ziqh' is set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username'
+
+2023-08-07 09:09:38 - [MESSAGE][PASSED] - Text 'Ziqh' is set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username'
+
+2023-08-07 09:09:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-07 09:09:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-07 09:09:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In")): Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In' is clicked on
+
+2023-08-07 09:09:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In' is clicked on
+
+2023-08-07 09:09:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/p_Ziqh"), "Ziqh"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/p_Ziqh' are matched.
+
+2023-08-07 09:09:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/p_Ziqh' are matched.
+
+2023-08-07 09:09:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com"), "ziqhru@gmail.com"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com' are matched.
+
+2023-08-07 09:09:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create New Property Master" time="17.635" classname="Test Cases/Create New Property Master" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Create New Property Master FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Jalan Tiara Sendayan 2, Taman Tiara Sendayan' of object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Address Line 1_propAddressLine1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Create New Property Master.run(Create New Property Master:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691370467480.run(TempTestSuite1691370467480.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.170)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-1RKM9NHJ', ip: '192.168.3.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47a7f12f8ed09ff80da85ed53bfcfb51
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-08-07 09:09:41 - [TEST_CASE][FAILED] - Test Cases/Create New Property Master: Test Cases/Create New Property Master FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Jalan Tiara Sendayan 2, Taman Tiara Sendayan' of object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Address Line 1_propAddressLine1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Create New Property Master.run(Create New Property Master:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691370467480.run(TempTestSuite1691370467480.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.170)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-1RKM9NHJ', ip: '192.168.3.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47a7f12f8ed09ff80da85ed53bfcfb51
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-08-07 09:09:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-07 09:09:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-07 09:09:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-07 09:09:42 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-08-07 09:09:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-07 09:09:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-07 09:09:43 - [TEST_STEP][PASSED] - navigateToUrl("https://sit-agent-v2.nextsix.com/"): Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-07 09:09:43 - [MESSAGE][PASSED] - Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-07 09:09:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username"), "Ziqh"): Text 'Ziqh' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username'
+
+2023-08-07 09:09:44 - [MESSAGE][PASSED] - Text 'Ziqh' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username'
+
+2023-08-07 09:09:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-07 09:09:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-07 09:09:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Sign In")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Sign In' is clicked on
+
+2023-08-07 09:09:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Sign In' is clicked on
+
+2023-08-07 09:09:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_New Property Request")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_New Property Request' is clicked on
+
+2023-08-07 09:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_New Property Request' is clicked on
+
+2023-08-07 09:09:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_New Property Request"), "New Property Request"): Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_New Property Request' are matched.
+
+2023-08-07 09:09:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_New Property Request' are matched.
+
+2023-08-07 09:09:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Create New Property Request")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Create New Property Request' is clicked on
+
+2023-08-07 09:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Create New Property Request' is clicked on
+
+2023-08-07 09:09:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/p_NOTE Only make new request if the propert_38fa62"), "NOTE: Only make new request if the property is high rise (Apartment, Flat, Condominium or Service Residence)"): Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/p_NOTE Only make new request if the propert_38fa62' are matched.
+
+2023-08-07 09:09:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/p_NOTE Only make new request if the propert_38fa62' are matched.
+
+2023-08-07 09:09:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Property Name")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Property Name' is clicked on
+
+2023-08-07 09:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Property Name' is clicked on
+
+2023-08-07 09:09:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName"), "Kuchai Avenue"): Text 'Kuchai Avenue' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-07 09:09:49 - [MESSAGE][PASSED] - Text 'Kuchai Avenue' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-07 09:09:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next' is clicked on
+
+2023-08-07 09:09:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next' is clicked on
+
+2023-08-07 09:09:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/verifyduplicate"), "Property Name is not unique"): Actual text and expected text of test object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/verifyduplicate' are matched.
+
+2023-08-07 09:09:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/verifyduplicate' are matched.
+
+2023-08-07 09:09:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-07 09:09:51 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-07 09:09:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-07 09:09:51 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-07 09:09:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName"), "kucHAI avenue"): Text 'kucHAI avenue' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-07 09:09:52 - [MESSAGE][PASSED] - Text 'kucHAI avenue' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-07 09:09:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next' is clicked on
+
+2023-08-07 09:09:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next' is clicked on
+
+2023-08-07 09:09:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/verifyduplicate"), "Property Name is not unique"): Actual text and expected text of test object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/verifyduplicate' are matched.
+
+2023-08-07 09:09:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/verifyduplicate' are matched.
+
+2023-08-07 09:09:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-07 09:09:53 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-07 09:09:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-07 09:09:54 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-07 09:09:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName"), "The Apartment 2"): Text 'The Apartment 2' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-07 09:09:55 - [MESSAGE][PASSED] - Text 'The Apartment 2' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-07 09:09:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Property Category")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Property Category' is clicked on
+
+2023-08-07 09:09:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Property Category' is clicked on
+
+2023-08-07 09:09:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_ApartmentFlat")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_ApartmentFlat' is clicked on
+
+2023-08-07 09:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_ApartmentFlat' is clicked on
+
+2023-08-07 09:09:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Property Type")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Property Type' is clicked on
+
+2023-08-07 09:09:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Property Type' is clicked on
+
+2023-08-07 09:09:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Apartment")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Apartment' is clicked on
+
+2023-08-07 09:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Apartment' is clicked on
+
+2023-08-07 09:09:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next' is clicked on
+
+2023-08-07 09:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next' is clicked on
+
+2023-08-07 09:09:57 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Address Line 1_propAddressLine1"), "Jalan Tiara Sendayan 2, Taman Tiara Sendayan"): Unable to set text 'Jalan Tiara Sendayan 2, Taman Tiara Sendayan' of object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Address Line 1_propAddressLine1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Jalan Tiara Sendayan 2, Taman Tiara Sendayan' of object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Address Line 1_propAddressLine1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Create New Property Master.run(Create New Property Master:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691370467480.run(TempTestSuite1691370467480.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.170)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-1RKM9NHJ', ip: '192.168.3.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47a7f12f8ed09ff80da85ed53bfcfb51
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1690990004039.run(Script1690990004039.groovy:83)
+	... 13 more
+)
+
+2023-08-07 09:09:58 - [MESSAGE][FAILED] - Unable to set text 'Jalan Tiara Sendayan 2, Taman Tiara Sendayan' of object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Address Line 1_propAddressLine1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Jalan Tiara Sendayan 2, Taman Tiara Sendayan' of object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Address Line 1_propAddressLine1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Create New Property Master.run(Create New Property Master:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691370467480.run(TempTestSuite1691370467480.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.170)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-1RKM9NHJ', ip: '192.168.3.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47a7f12f8ed09ff80da85ed53bfcfb51
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1690990004039.run(Script1690990004039.groovy:83)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\user\\git\\agentportal\\Reports\\20230807_090747\\Regression Test\\20230807_090747\\1691370598568.png]]]]></system-out>
+         <system-err><![CDATA[2023-08-07 09:09:41 - [TEST_CASE][FAILED] - Test Cases/Create New Property Master: Test Cases/Create New Property Master FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Jalan Tiara Sendayan 2, Taman Tiara Sendayan' of object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Address Line 1_propAddressLine1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Create New Property Master.run(Create New Property Master:83)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691370467480.run(TempTestSuite1691370467480.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=115.0.5790.170)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-1RKM9NHJ', ip: '192.168.3.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.170, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55836}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 47a7f12f8ed09ff80da85ed53bfcfb51
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-07 09:07:50 - [TEST_SUITE][FAILED] - Regression Test: Test Cases/Forgot password -TRR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Ziqh' of object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Forgot password -TRR.run(Forgot password -TRR:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691370467480.run(TempTestSuite1691370467480.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username' located by '//*[@type = 'username' and @placeholder = 'user name' and @name = 'username']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-08-07 09:07:50 - [TEST_SUITE][FAILED] - Regression Test: Test Cases/Forgot password -TRR FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'Ziqh' of object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Forgot password -TRR.run(Forgot password -TRR:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1691370467480.run(TempTestSuite1691370467480.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username' located by '//*[@type = 'username' and @placeholder = 'user name' and @name = 'username']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1381)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Edit Property - Agent Memo</name>
+   <name>Login</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>fd17c37d-f0e5-4142-b2fd-f053a0c2e8a3</testCaseGuid>
+   <testCaseGuid>6373be62-c7a9-4c64-893d-1978b75864e5</testCaseGuid>
 </TestCaseEntity>

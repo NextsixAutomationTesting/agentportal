@@ -1,22 +1,8 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
+import org.openqa.selenium.Keys
+
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://sit-agent-v2.nextsix.com/')
@@ -67,8 +53,16 @@ WebUI.sendKeys(findTestObject('Object Repository/Create new property master/Page
 WebUI.sendKeys(findTestObject('Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'),
 	Keys.chord(Keys.DELETE))
 
+
+
+
+Random random = new Random()
+int min = 1
+int max = 10000
+int randomint = min + random.nextInt(max - min)
+
 WebUI.setText(findTestObject('Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'), 
-    'The Apartment 2')
+    'The Apartment '+ randomint)
 
 WebUI.click(findTestObject('Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Property Category'))
 
@@ -124,7 +118,8 @@ WebUI.verifyElementText(findTestObject('Object Repository/Create new property ma
 WebUI.click(findTestObject('Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Back to New Property Request'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Create new property master/Page_The Next Six Agent (SIT)/td_The Apartment 2'), 
-    'The Apartment 2')
+    'The Apartment '+ randomint)
+
 newdate = new Date().format( 'dd/M/yyyy' )
 
 println newdate
@@ -135,12 +130,12 @@ WebUI.verifyElementText(findTestObject('Object Repository/Create new property ma
     'Pending')
 
 WebUI.setText(findTestObject('Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Create New Property Request_form-cont_25d365'), 
-    'The Apartment')
+    'The Apartment '+ randomint)
 
 WebUI.click(findTestObject('Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Apply'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Create new property master/Page_The Next Six Agent (SIT)/td_The Apartment 2'), 
-    'The Apartment 2')
+    'The Apartment '+ randomint)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_Pending'), 
     'Pending')

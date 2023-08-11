@@ -46,6 +46,17 @@ WebUI.setText(findTestObject('Object Repository/Login/Page_The Next Six Agent (S
     'Ziqh')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'), 
+    'YC0926CP/9Y=')
+
+WebUI.click(findTestObject('Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'), Keys.chord(
+        Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'), Keys.chord(
+        Keys.DELETE))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'), 
     'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In'))
@@ -54,3 +65,6 @@ WebUI.verifyElementText(findTestObject('Object Repository/Login/Page_The Next Si
 
 WebUI.verifyElementText(findTestObject('Object Repository/Login/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com'), 'ziqhru@gmail.com')
 
+WebUI.click(findTestObject('Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Logout'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Sign In'), 'Sign In')
