@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Ren ID_renId</name>
+   <name>input_Email Address_Email Address</name>
    <tag></tag>
-   <elementGuidId>e432fe93-610e-490b-b3f4-7320faa1d981</elementGuidId>
+   <elementGuidId>2ee6e034-6e46-4f85-b4bc-828861189cbc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#renId</value>
+         <key>BASIC</key>
+         <value>//*[@value = 'ziqhru@gmail.com']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='renId']</value>
+         <value>//input[@id='Email Address']</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'p-0 w-100 profile-input-text profile-text-medium fs-6' and @value = 'REN123']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1be7fe76-a4b7-4b6e-ab53-a8a85732398d</webElementGuid>
+      <webElementGuid>fc89f5ee-00fd-4e1f-8209-ea5efedd97e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,70 +33,86 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>d21fff0d-0844-4647-b705-eb65e3bc918e</webElementGuid>
+      <webElementGuid>8dac83fb-38a6-4f6e-a16a-a5cbd0777dea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Email Address</value>
+      <webElementGuid>3df2ff9f-7110-4955-9a07-fd344aa26961</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>renId</value>
-      <webElementGuid>01061bc9-379b-44cd-9911-977be381911a</webElementGuid>
+      <value>Email Address</value>
+      <webElementGuid>6533fa42-7736-43db-b381-dc2a3fb57910</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Email Address</value>
+      <webElementGuid>7ebcb8c7-1a65-4e30-be47-58602c3dd66c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>p-0 w-100 profile-input-text profile-text-medium fs-6</value>
-      <webElementGuid>7c71c9a6-62c9-477b-9c96-bd599e581267</webElementGuid>
+      <value>form-control profile-input-trans profile-input-value profile-input-disabled profile-input-placeholder px-0</value>
+      <webElementGuid>c9ab05c4-b32f-4b20-ad22-c3995dade7bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>REN123</value>
-      <webElementGuid>6cbb77e4-0aad-4521-88a1-a139f9af78bf</webElementGuid>
+      <value>ziqhru@gmail.com</value>
+      <webElementGuid>b24387c7-12ad-4410-a57d-0030f100d05e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;renId&quot;)</value>
-      <webElementGuid>469b938b-f381-47fb-b9f5-a7b062d74bfc</webElementGuid>
+      <value>id(&quot;Email Address&quot;)</value>
+      <webElementGuid>c3982680-0044-48ae-94ee-5bd6e6d2f915</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='renId']</value>
-      <webElementGuid>d170f7e3-875c-4175-b753-b5db268a61d1</webElementGuid>
+      <value>//input[@id='Email Address']</value>
+      <webElementGuid>227ab876-5bd7-438c-9aca-b45f8744bcdd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='kt_app_content_container']/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/input</value>
-      <webElementGuid>11fc4c08-dd16-40c2-9282-0cd46a04cc75</webElementGuid>
+      <value>//div[@id='kt_app_content_container']/div/div/div[3]/div[2]/div/div/div/div/input</value>
+      <webElementGuid>21904a20-5be7-47b4-802c-ca66c7e26933</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>673e38cf-78a9-4cb9-b52b-daef827d97a5</webElementGuid>
+      <value>//div[3]/div[2]/div/div/div/div/input</value>
+      <webElementGuid>5eaad113-413e-4cc4-97b5-206990865858</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value></value>
-      <webElementGuid>7b67d293-c09e-4c81-b626-a36d85d13522</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'Email Address' and @id = 'Email Address' and @placeholder = 'Email Address']</value>
+      <webElementGuid>a82853d6-5117-4bc9-a835-9fa031582e5e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

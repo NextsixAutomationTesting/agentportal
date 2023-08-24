@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Subang Jaya</name>
+   <tag></tag>
+   <elementGuidId>ca17de00-77a2-4f84-8574-e2e10c22201b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='kt_app_content_container']/div/div/div[2]/div/div/div/div[2]/div[2]/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>ad644315-ea8f-4038-8d6f-9f79a56cb0c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-0 profile-text-black profile-text-medium fs-6</value>
+      <webElementGuid>aea855f4-b3be-4153-9173-543afa2e677f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Subang Jaya</value>
+      <webElementGuid>fdb3e298-4546-43a2-9e62-c8cbac71d52c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kt_app_content_container&quot;)/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;page-statistic-wrapper&quot;]/div[@class=&quot;profile-wrapper-upper&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;profile-wrapper-subheader&quot;]/div[@class=&quot;row column-gap-4&quot;]/div[@class=&quot;col d-flex flex-column justify-content-between row-gap-3 row-gap-sm-0&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-6 profile-text-para fs-7&quot;]/p[@class=&quot;mb-0 profile-text-black profile-text-medium fs-6&quot;]</value>
+      <webElementGuid>6d7e0a9f-4c61-4d8e-b731-45313708f99e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='kt_app_content_container']/div/div/div[2]/div/div/div/div[2]/div[2]/div[2]/p</value>
+      <webElementGuid>22afde5d-e239-4984-b9c4-af43f933288d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Area Specialist'])[1]/preceding::p[1]</value>
+      <webElementGuid>7c04dfb9-a7ed-47de-b53d-cfbe70fed57b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Title Specialist'])[1]/preceding::p[2]</value>
+      <webElementGuid>3fa37229-f7d8-4dbd-a45a-d2c7232a16a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Subang Jaya']/parent::*</value>
+      <webElementGuid>b1d07b7d-2f47-4110-90a1-2889ee6a98fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/p</value>
+      <webElementGuid>93fce923-1332-4708-9906-7a9b3c44a37d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Subang Jaya' or . = 'Subang Jaya')]</value>
+      <webElementGuid>b34d7199-8793-47ba-8349-799aa92b4d70</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

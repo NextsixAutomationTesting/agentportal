@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='kt_app_content_container']/div/div/div[3]/div[2]/div/div</value>
+         <value>//div[@id='kt_app_content_container']/div/div/div[3]/div[2]/div/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.row.profile-mx-inherit > div.col</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1059f2d9-ae28-444f-8aec-9fb275d4afcb</webElementGuid>
+      <webElementGuid>2d051825-d918-4df0-9791-7875dd011b8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>col</value>
-      <webElementGuid>f72652f4-b822-43b3-a623-fe282deeac14</webElementGuid>
+      <value>row profile-input-box </value>
+      <webElementGuid>4a0437b5-ed74-4dda-93f8-6393c4447fcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,18 +38,58 @@
       <name>text</name>
       <type>Main</type>
       <value>Email Address </value>
-      <webElementGuid>d4124378-d612-49c1-9a91-08e43642255a</webElementGuid>
+      <webElementGuid>9aacefdb-346d-40f9-88d2-756fefa496ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;kt_app_content_container&quot;)/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;page-statistic-wrapper&quot;]/div[@class=&quot;profile-wrapper-lower&quot;]/div[@class=&quot;profile-wrapper-container&quot;]/div[@class=&quot;row profile-mx-inherit&quot;]/div[@class=&quot;col&quot;]</value>
-      <webElementGuid>52ad3962-9d80-4f00-9076-9d042f3eaf56</webElementGuid>
+      <value>id(&quot;kt_app_content_container&quot;)/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;page-statistic-wrapper&quot;]/div[@class=&quot;profile-wrapper-lower&quot;]/div[@class=&quot;profile-wrapper-container&quot;]/div[@class=&quot;row profile-mx-inherit&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;row profile-input-box&quot;]</value>
+      <webElementGuid>e381f373-4e08-41d9-8fee-6de4b9290e6b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='kt_app_content_container']/div/div/div[3]/div[2]/div/div/div</value>
+      <webElementGuid>62e7a17a-60fb-468b-be3c-df36cc5c0f18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E-Business Card'])[1]/following::div[9]</value>
+      <webElementGuid>d8b5dc17-e8ad-4bde-b92a-7d1f49d376eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Full Name'])[1]/preceding::div[2]</value>
+      <webElementGuid>4b95fce3-fd9b-423f-9465-4951d4974cf4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/div/div</value>
+      <webElementGuid>e55ee0ae-8281-42f4-9d8c-ba987f4ce86c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Email Address ' or . = 'Email Address ')]</value>
+      <webElementGuid>75899706-9afb-46ff-b02f-1616e7d3a40e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
@@ -79,13 +119,5 @@
       <type>Main</type>
       <value>//div[3]/div[2]/div/div</value>
       <webElementGuid>798ff145-0a38-4b77-96c8-5c0d62c053f7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = 'Email Address ' or . = 'Email Address ')]</value>
-      <webElementGuid>25c4d680-5e02-44b4-bfa4-9322c74fd2db</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Pro Pack</name>
+   <tag></tag>
+   <elementGuidId>862d7335-ce78-44c6-83dc-62b151fbb538</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='kt_app_content_container']/div/div/div[2]/div/div/div/div[2]/div/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.mb-0.profile-text-black.profile-text-medium.fs-6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>c06ea7c1-a0e1-4aa1-9443-0fb276149051</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-0 profile-text-black profile-text-medium fs-6</value>
+      <webElementGuid>f6dda2b0-b970-4288-9282-e22e49e810ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pro Pack</value>
+      <webElementGuid>59534acf-57e1-450f-b999-af45e0e933f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kt_app_content_container&quot;)/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;page-statistic-wrapper&quot;]/div[@class=&quot;profile-wrapper-upper&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;profile-wrapper-subheader&quot;]/div[@class=&quot;row column-gap-4&quot;]/div[@class=&quot;col d-flex flex-column justify-content-between row-gap-3 row-gap-sm-0&quot;]/div[@class=&quot;row row-gap-3 row-gap-sm-0 justify-content-between&quot;]/div[@class=&quot;col-6 col-sm-auto profile-text-para fs-7&quot;]/p[@class=&quot;mb-0 profile-text-black profile-text-medium fs-6&quot;]</value>
+      <webElementGuid>f45bac0d-dbe1-4ff7-89ba-96cf69889871</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='kt_app_content_container']/div/div/div[2]/div/div/div/div[2]/div/div/p</value>
+      <webElementGuid>99da7b36-2478-4dc1-9e93-3de1d0a965b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Profile'])[2]/following::p[1]</value>
+      <webElementGuid>79aad426-75a1-4d95-8e9e-eef70f56d720</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pro Pack']/parent::*</value>
+      <webElementGuid>f30b3245-cf3d-4f28-96f4-f7f366959591</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>4ac416e9-4a79-44f0-ad37-6c00ab21c175</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Pro Pack' or . = 'Pro Pack')]</value>
+      <webElementGuid>f7c44c47-e8fc-40c5-889b-14dbc5eb3ac9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

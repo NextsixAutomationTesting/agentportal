@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Test" time="101.345" tests="6" failures="0" errors="0">
+   <testsuite name="Regression Test" tests="6" failures="0" errors="0" time="101.345" skipped="0" timestamp="2023-08-16 09:25:39" hostname="NextSix - LAPTOP-1RKM9NHJ" id="Test Suites/Regression Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\git\\agentportal\\Reports\\20230816_092535\\Regression Test\\20230816_092535"/>
+         <property name="logFiles" value="C:\\Users\\user\\git\\agentportal\\Reports\\20230816_092535\\Regression Test\\20230816_092535\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="NextSix - LAPTOP-1RKM9NHJ"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 115.0.0.0"/>
+         <property name="hostAddress" value="192.168.3.114"/>
+         <property name="sessionId" value="b5d0287e42984125fe879e051b39ac81"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login Module/Public Agent/Login" time="10.762" classname="Test Cases/Login Module/Public Agent/Login" status="PASSED">
+         <system-out><![CDATA[2023-08-16 09:25:39 - [TEST_CASE][PASSED] - Test Cases/Login Module/Public Agent/Login: Test Cases/Login Module/Public Agent/Login
+
+2023-08-16 09:25:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-16 09:25:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 09:25:39 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-08-16 09:25:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 09:25:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-16 09:25:42 - [TEST_STEP][PASSED] - navigateToUrl("https://sit-agent-v2.nextsix.com/"): Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-16 09:25:43 - [MESSAGE][PASSED] - Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-16 09:25:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username"), "ziqhru@gmail.com"): Text 'ziqhru@gmail.com' is set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username'
+
+2023-08-16 09:25:44 - [MESSAGE][PASSED] - Text 'ziqhru@gmail.com' is set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username'
+
+2023-08-16 09:25:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password"), "tzH6RvlfSTg="): Text ****** has been set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:25:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:25:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Sign In")): Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Sign In' is clicked on
+
+2023-08-16 09:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Sign In' is clicked on
+
+2023-08-16 09:25:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/div_Invalid usernamepassword. Please try again"), "Invalid username/password. Please try again"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/div_Invalid usernamepassword. Please try again' are matched.
+
+2023-08-16 09:25:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/div_Invalid usernamepassword. Please try again' are matched.
+
+2023-08-16 09:25:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:25:46 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:25:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:25:46 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:25:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password"), "HeCM15nHKBI="): Text ****** has been set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:25:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:25:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Sign In")): Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Sign In' is clicked on
+
+2023-08-16 09:25:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Sign In' is clicked on
+
+2023-08-16 09:25:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com"), "ziqhru@gmail.com"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com' are matched.
+
+2023-08-16 09:25:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com' are matched.
+
+2023-08-16 09:25:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/img_Copyright  2020-2023. The Next Six Sdn._2664f6"), 0): Object 'Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/img_Copyright  2020-2023. The Next Six Sdn._2664f6' is present
+
+2023-08-16 09:25:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-08-16 09:25:49 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/img_Copyright  2020-2023. The Next Six Sdn._2664f6' is present
+
+2023-08-16 09:25:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Logout")): Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Logout' is clicked on
+
+2023-08-16 09:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Logout' is clicked on
+
+2023-08-16 09:25:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Sign In"), "Sign In"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Sign In' are matched.
+
+2023-08-16 09:25:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Sign In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Module/Public Agent/Forgot password - Public Agent" time="32.605" classname="Test Cases/Login Module/Public Agent/Forgot password - Public Agent" status="PASSED">
+         <system-out><![CDATA[2023-08-16 09:25:50 - [TEST_CASE][PASSED] - Test Cases/Login Module/Public Agent/Forgot password - Public Agent: Test Cases/Login Module/Public Agent/Forgot password - Public Agent
+
+2023-08-16 09:25:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-16 09:25:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-16 09:25:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 09:25:50 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-08-16 09:25:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 09:25:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-16 09:25:52 - [TEST_STEP][PASSED] - navigateToUrl("https://sit-agent-v2.nextsix.com/"): Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-16 09:25:53 - [MESSAGE][PASSED] - Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-16 09:25:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/button_forgot password")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/button_forgot password' is clicked on
+
+2023-08-16 09:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/button_forgot password' is clicked on
+
+2023-08-16 09:25:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username"), "testernext61@outlook.com"): Text 'testernext61@outlook.com' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username'
+
+2023-08-16 09:25:54 - [MESSAGE][PASSED] - Text 'testernext61@outlook.com' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username'
+
+2023-08-16 09:25:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/submit")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/submit' is clicked on
+
+2023-08-16 09:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/submit' is clicked on
+
+2023-08-16 09:25:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/successtext"), "Password reset request was sent successfully. Please check your email to reset your password."): Actual text and expected text of test object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/successtext' are matched.
+
+2023-08-16 09:25:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/successtext' are matched.
+
+2023-08-16 09:25:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username'
+
+2023-08-16 09:25:56 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username'
+
+2023-08-16 09:25:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username'
+
+2023-08-16 09:25:56 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username'
+
+2023-08-16 09:25:56 - [TEST_STEP][PASSED] - navigateToUrl("https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=15&ct=1690958366&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fcobrandid%3dab0455a0-8d03-46b9-b18b-df2f57b9e44c%26nlp%3d1%26deeplink%3dowa%252f%26RpsCsrfState%3d47550ee8-a8a1-75fe-368f-063c1837e2dd&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c"): Navigate to 'https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=15&ct=1690958366&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fcobrandid%3dab0455a0-8d03-46b9-b18b-df2f57b9e44c%26nlp%3d1%26deeplink%3dowa%252f%26RpsCsrfState%3d47550ee8-a8a1-75fe-368f-063c1837e2dd&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c' successfully
+
+2023-08-16 09:25:57 - [MESSAGE][PASSED] - Navigate to 'https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=15&ct=1690958366&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fcobrandid%3dab0455a0-8d03-46b9-b18b-df2f57b9e44c%26nlp%3d1%26deeplink%3dowa%252f%26RpsCsrfState%3d47550ee8-a8a1-75fe-368f-063c1837e2dd&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c' successfully
+
+2023-08-16 09:25:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/outlooklogin"), "testernext61@outlook.com"): Text 'testernext61@outlook.com' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/outlooklogin'
+
+2023-08-16 09:25:58 - [MESSAGE][PASSED] - Text 'testernext61@outlook.com' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/outlooklogin'
+
+2023-08-16 09:25:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/nextbutton")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/nextbutton' is clicked on
+
+2023-08-16 09:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/nextbutton' is clicked on
+
+2023-08-16 09:25:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/outlookpassword"), "Next65678"): Text 'Next65678' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/outlookpassword'
+
+2023-08-16 09:26:00 - [MESSAGE][PASSED] - Text 'Next65678' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/outlookpassword'
+
+2023-08-16 09:26:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/nextbutton")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/nextbutton' is clicked on
+
+2023-08-16 09:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/nextbutton' is clicked on
+
+2023-08-16 09:26:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/button_no")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/button_no' is clicked on
+
+2023-08-16 09:26:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/button_no' is clicked on
+
+2023-08-16 09:26:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-16 09:26:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-16 09:26:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/Page_Email - tester next6 - Outlook/span_Reset your password")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/Page_Email - tester next6 - Outlook/span_Reset your password' is clicked on
+
+2023-08-16 09:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/Page_Email - tester next6 - Outlook/span_Reset your password' is clicked on
+
+2023-08-16 09:26:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/Page_Email - tester next6 - Outlook/Page_Email - tester next6 - Outlook/a_Visit this link to reset your password")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/Page_Email - tester next6 - Outlook/Page_Email - tester next6 - Outlook/a_Visit this link to reset your password' is clicked on
+
+2023-08-16 09:26:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/Page_Email - tester next6 - Outlook/Page_Email - tester next6 - Outlook/a_Visit this link to reset your password' is clicked on
+
+2023-08-16 09:26:13 - [TEST_STEP][PASSED] - switchToWindowIndex("1"): Switched to window with index: '1'
+
+2023-08-16 09:26:13 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-08-16 09:26:13 - [TEST_STEP][PASSED] - newpassword = RandomStringUtils.randomAlphabetic(6): null
+
+2023-08-16 09:26:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/newusername"), newpassword): Text 'sIPbFW' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/newusername'
+
+2023-08-16 09:26:15 - [MESSAGE][PASSED] - Text 'sIPbFW' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/newusername'
+
+2023-08-16 09:26:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/confirmpassword"), newpassword): Text 'sIPbFW' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/confirmpassword'
+
+2023-08-16 09:26:15 - [MESSAGE][PASSED] - Text 'sIPbFW' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/confirmpassword'
+
+2023-08-16 09:26:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/submitbutton")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/submitbutton' is clicked on
+
+2023-08-16 09:26:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/submitbutton' is clicked on
+
+2023-08-16 09:26:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/successfulmessage"), "Successfully change password, please login via app."): Actual text and expected text of test object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/successfulmessage' are matched.
+
+2023-08-16 09:26:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/successfulmessage' are matched.
+
+2023-08-16 09:26:16 - [TEST_STEP][PASSED] - switchToWindowIndex("0"): Switched to window with index: '0'
+
+2023-08-16 09:26:16 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2023-08-16 09:26:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/deleteunbox")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/deleteunbox' is clicked on
+
+2023-08-16 09:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/deleteunbox' is clicked on
+
+2023-08-16 09:26:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2023-08-16 09:26:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-08-16 09:26:19 - [TEST_STEP][PASSED] - navigateToUrl("https://sit-agent-v2.nextsix.com/"): Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-16 09:26:19 - [MESSAGE][PASSED] - Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-16 09:26:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username"), "testernext61@outlook.com"): Text 'testernext61@outlook.com' is set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username'
+
+2023-08-16 09:26:20 - [MESSAGE][PASSED] - Text 'testernext61@outlook.com' is set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username'
+
+2023-08-16 09:26:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password"), newpassword): Text 'sIPbFW' is set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:26:21 - [MESSAGE][PASSED] - Text 'sIPbFW' is set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:26:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In")): Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In' is clicked on
+
+2023-08-16 09:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In' is clicked on
+
+2023-08-16 09:26:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com"), "testernext61@outlook.com"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com' are matched.
+
+2023-08-16 09:26:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Module/Register Here Link" time="6.386" classname="Test Cases/Login Module/Register Here Link" status="PASSED">
+         <system-out><![CDATA[2023-08-16 09:26:22 - [TEST_CASE][PASSED] - Test Cases/Login Module/Register Here Link: Test Cases/Login Module/Register Here Link
+
+2023-08-16 09:26:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-16 09:26:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-16 09:26:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 09:26:23 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-08-16 09:26:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 09:26:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-16 09:26:25 - [TEST_STEP][PASSED] - navigateToUrl("https://sit-agent-v2.nextsix.com/"): Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-16 09:26:25 - [MESSAGE][PASSED] - Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-16 09:26:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/a_Register here")): Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/a_Register here' is clicked on
+
+2023-08-16 09:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/a_Register here' is clicked on
+
+2023-08-16 09:26:26 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2023-08-16 09:26:26 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2023-08-16 09:26:26 - [TEST_STEP][PASSED] - switchToWindowTitle("Property Website in Malaysia for Buy, Sell or Rent | Nextsix"): Switched to window with title: 'Property Website in Malaysia for Buy, Sell or Rent | Nextsix'
+
+2023-08-16 09:26:28 - [MESSAGE][PASSED] - Switched to window with title: 'Property Website in Malaysia for Buy, Sell or Rent | Nextsix'
+
+2023-08-16 09:26:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_Property Website in Malaysia for Buy, _648e38/a_Agent Login"), "Agent Login"): Actual text and expected text of test object 'Object Repository/Login/Page_Property Website in Malaysia for Buy, _648e38/a_Agent Login' are matched.
+
+2023-08-16 09:26:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_Property Website in Malaysia for Buy, _648e38/a_Agent Login' are matched.
+
+2023-08-16 09:26:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_Property Website in Malaysia for Buy, _648e38/a_Lucky Draw"), "Lucky Draw"): Actual text and expected text of test object 'Object Repository/Login/Page_Property Website in Malaysia for Buy, _648e38/a_Lucky Draw' are matched.
+
+2023-08-16 09:26:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_Property Website in Malaysia for Buy, _648e38/a_Lucky Draw' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Module/TRR/Login" time="11.932" classname="Test Cases/Login Module/TRR/Login" status="PASSED">
+         <system-out><![CDATA[2023-08-16 09:26:29 - [TEST_CASE][PASSED] - Test Cases/Login Module/TRR/Login: Test Cases/Login Module/TRR/Login
+
+2023-08-16 09:26:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-16 09:26:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-16 09:26:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 09:26:30 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-08-16 09:26:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 09:26:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-16 09:26:31 - [TEST_STEP][PASSED] - navigateToUrl("https://sit-agent-v2.nextsix.com/"): Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-16 09:26:32 - [MESSAGE][PASSED] - Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-16 09:26:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/label_User Name  Email Address"), "USER NAME / EMAIL ADDRESS"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/label_User Name  Email Address' are matched.
+
+2023-08-16 09:26:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/label_User Name  Email Address' are matched.
+
+2023-08-16 09:26:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username"), ""): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username' are matched.
+
+2023-08-16 09:26:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username' are matched.
+
+2023-08-16 09:26:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/label_Password"), "PASSWORD"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/label_Password' are matched.
+
+2023-08-16 09:26:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/label_Password' are matched.
+
+2023-08-16 09:26:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password"), ""): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password' are matched.
+
+2023-08-16 09:26:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password' are matched.
+
+2023-08-16 09:26:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/button_forgot password"), "forgot password"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/button_forgot password' are matched.
+
+2023-08-16 09:26:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/button_forgot password' are matched.
+
+2023-08-16 09:26:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In"), "Sign In"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In' are matched.
+
+2023-08-16 09:26:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In' are matched.
+
+2023-08-16 09:26:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/span_Dont have an account yetRegister here"), "Don't have an account yet? Register here"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/span_Dont have an account yetRegister here' are matched.
+
+2023-08-16 09:26:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/span_Dont have an account yetRegister here' are matched.
+
+2023-08-16 09:26:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username"), "Ziqh"): Text 'Ziqh' is set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username'
+
+2023-08-16 09:26:35 - [MESSAGE][PASSED] - Text 'Ziqh' is set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username'
+
+2023-08-16 09:26:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password"), "YC0926CP/9Y="): Text ****** has been set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:26:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:26:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In")): Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In' is clicked on
+
+2023-08-16 09:26:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In' is clicked on
+
+2023-08-16 09:26:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:26:37 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:26:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:26:37 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:26:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:26:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:26:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In")): Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In' is clicked on
+
+2023-08-16 09:26:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In' is clicked on
+
+2023-08-16 09:26:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/p_Ziqh"), "Ziqh"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/p_Ziqh' are matched.
+
+2023-08-16 09:26:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/p_Ziqh' are matched.
+
+2023-08-16 09:26:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com"), "ziqhru@gmail.com"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com' are matched.
+
+2023-08-16 09:26:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com' are matched.
+
+2023-08-16 09:26:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Logout")): Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Logout' is clicked on
+
+2023-08-16 09:26:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Logout' is clicked on
+
+2023-08-16 09:26:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Sign In"), "Sign In"): Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Sign In' are matched.
+
+2023-08-16 09:26:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Sign In' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login Module/TRR/Forgot password -TRR" time="6.093" classname="Test Cases/Login Module/TRR/Forgot password -TRR" status="PASSED">
+         <system-out><![CDATA[2023-08-16 09:26:41 - [TEST_CASE][PASSED] - Test Cases/Login Module/TRR/Forgot password -TRR: Test Cases/Login Module/TRR/Forgot password -TRR
+
+2023-08-16 09:26:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-16 09:26:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-16 09:26:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 09:26:42 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-08-16 09:26:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 09:26:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-16 09:26:43 - [TEST_STEP][PASSED] - navigateToUrl("https://sit-agent-v2.nextsix.com/"): Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-16 09:26:44 - [MESSAGE][PASSED] - Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-16 09:26:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/button_forgot password")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/button_forgot password' is clicked on
+
+2023-08-16 09:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/button_forgot password' is clicked on
+
+2023-08-16 09:26:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username"), "Ziqh"): Text 'Ziqh' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username'
+
+2023-08-16 09:26:45 - [MESSAGE][PASSED] - Text 'Ziqh' is set on object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username'
+
+2023-08-16 09:26:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/span_Submit")): Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/span_Submit' is clicked on
+
+2023-08-16 09:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/span_Submit' is clicked on
+
+2023-08-16 09:26:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/div_Please contact system administrator to _a0651c"), "Please contact system administrator to reset password."): Actual text and expected text of test object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/div_Please contact system administrator to _a0651c' are matched.
+
+2023-08-16 09:26:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/div_Please contact system administrator to _a0651c' are matched.
+
+2023-08-16 09:26:46 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username - Copy")): Text of object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username - Copy' is cleared
+
+2023-08-16 09:26:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username - Copy' is cleared]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/New Property Master/Create New Property Master" time="33.245" classname="Test Cases/New Property Master/Create New Property Master" status="PASSED">
+         <system-out><![CDATA[2023-08-16 09:26:47 - [TEST_CASE][PASSED] - Test Cases/New Property Master/Create New Property Master: Test Cases/New Property Master/Create New Property Master
+
+2023-08-16 09:26:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-08-16 09:26:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-08-16 09:26:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-08-16 09:26:48 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized]']
+
+2023-08-16 09:26:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-08-16 09:26:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-08-16 09:26:49 - [TEST_STEP][PASSED] - navigateToUrl("https://sit-agent-v2.nextsix.com/"): Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-16 09:26:50 - [MESSAGE][PASSED] - Navigate to 'https://sit-agent-v2.nextsix.com/' successfully
+
+2023-08-16 09:26:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username"), "Ziqh"): Text 'Ziqh' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username'
+
+2023-08-16 09:26:51 - [MESSAGE][PASSED] - Text 'Ziqh' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username'
+
+2023-08-16 09:26:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Password_password"), "aeHFOx8jV/A="): Text ****** has been set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:26:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Password_password'
+
+2023-08-16 09:26:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Sign In")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Sign In' is clicked on
+
+2023-08-16 09:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Sign In' is clicked on
+
+2023-08-16 09:26:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_New Property Request")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_New Property Request' is clicked on
+
+2023-08-16 09:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_New Property Request' is clicked on
+
+2023-08-16 09:26:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_New Property Request"), "New Property Request"): Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_New Property Request' are matched.
+
+2023-08-16 09:26:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_New Property Request' are matched.
+
+2023-08-16 09:26:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Create New Property Request")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Create New Property Request' is clicked on
+
+2023-08-16 09:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Create New Property Request' is clicked on
+
+2023-08-16 09:26:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/p_NOTE Only make new request if the propert_38fa62"), "NOTE: Only make new request if the property is high rise (Apartment, Flat, Condominium or Service Residence)"): Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/p_NOTE Only make new request if the propert_38fa62' are matched.
+
+2023-08-16 09:26:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/p_NOTE Only make new request if the propert_38fa62' are matched.
+
+2023-08-16 09:26:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Property Name")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Property Name' is clicked on
+
+2023-08-16 09:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Property Name' is clicked on
+
+2023-08-16 09:26:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName"), "Kuchai Avenue"): Text 'Kuchai Avenue' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-16 09:26:56 - [MESSAGE][PASSED] - Text 'Kuchai Avenue' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-16 09:26:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next' is clicked on
+
+2023-08-16 09:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next' is clicked on
+
+2023-08-16 09:26:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/verifyduplicate"), "Property Name is not unique"): Actual text and expected text of test object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/verifyduplicate' are matched.
+
+2023-08-16 09:26:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/verifyduplicate' are matched.
+
+2023-08-16 09:26:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-16 09:26:58 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-16 09:26:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-16 09:26:58 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-16 09:26:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName"), "kucHAI avenue"): Text 'kucHAI avenue' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-16 09:26:59 - [MESSAGE][PASSED] - Text 'kucHAI avenue' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-16 09:26:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next' is clicked on
+
+2023-08-16 09:27:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next' is clicked on
+
+2023-08-16 09:27:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/verifyduplicate"), "Property Name is not unique"): Actual text and expected text of test object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/verifyduplicate' are matched.
+
+2023-08-16 09:27:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/verifyduplicate' are matched.
+
+2023-08-16 09:27:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-16 09:27:01 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-16 09:27:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-16 09:27:01 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-16 09:27:01 - [TEST_STEP][PASSED] - random = new java.util.Random(): null
+
+2023-08-16 09:27:01 - [TEST_STEP][PASSED] - min = 1: null
+
+2023-08-16 09:27:01 - [TEST_STEP][PASSED] - max = 10000: null
+
+2023-08-16 09:27:01 - [TEST_STEP][PASSED] - randomint = min + random.nextInt(max - min): null
+
+2023-08-16 09:27:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName"), "The Apartment " + randomint): Text 'The Apartment 6376' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-16 09:27:02 - [MESSAGE][PASSED] - Text 'The Apartment 6376' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName'
+
+2023-08-16 09:27:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Property Category")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Property Category' is clicked on
+
+2023-08-16 09:27:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Property Category' is clicked on
+
+2023-08-16 09:27:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_ApartmentFlat")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_ApartmentFlat' is clicked on
+
+2023-08-16 09:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_ApartmentFlat' is clicked on
+
+2023-08-16 09:27:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Property Type")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Property Type' is clicked on
+
+2023-08-16 09:27:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Property Type' is clicked on
+
+2023-08-16 09:27:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Apartment")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Apartment' is clicked on
+
+2023-08-16 09:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Apartment' is clicked on
+
+2023-08-16 09:27:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next' is clicked on
+
+2023-08-16 09:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next' is clicked on
+
+2023-08-16 09:27:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Address Line 1_propAddressLine1"), "Jalan Tiara Sendayan 2, Taman Tiara Sendayan"): Text 'Jalan Tiara Sendayan 2, Taman Tiara Sendayan' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Address Line 1_propAddressLine1'
+
+2023-08-16 09:27:06 - [MESSAGE][PASSED] - Text 'Jalan Tiara Sendayan 2, Taman Tiara Sendayan' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Address Line 1_propAddressLine1'
+
+2023-08-16 09:27:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_City_propCity"), "Labu"): Text 'Labu' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_City_propCity'
+
+2023-08-16 09:27:06 - [MESSAGE][PASSED] - Text 'Labu' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_City_propCity'
+
+2023-08-16 09:27:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Postcode_propPostcode"), "71900"): Text '71900' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Postcode_propPostcode'
+
+2023-08-16 09:27:07 - [MESSAGE][PASSED] - Text '71900' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Postcode_propPostcode'
+
+2023-08-16 09:27:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select State")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select State' is clicked on
+
+2023-08-16 09:27:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select State' is clicked on
+
+2023-08-16 09:27:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Negeri Sembilan")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Negeri Sembilan' is clicked on
+
+2023-08-16 09:27:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Negeri Sembilan' is clicked on
+
+2023-08-16 09:27:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Area")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Area' is clicked on
+
+2023-08-16 09:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Area' is clicked on
+
+2023-08-16 09:27:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Labu")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Labu' is clicked on
+
+2023-08-16 09:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Labu' is clicked on
+
+2023-08-16 09:27:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select All")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select All' is clicked on
+
+2023-08-16 09:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select All' is clicked on
+
+2023-08-16 09:27:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Deselect All")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Deselect All' is clicked on
+
+2023-08-16 09:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Deselect All' is clicked on
+
+2023-08-16 09:27:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select All")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select All' is clicked on
+
+2023-08-16 09:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select All' is clicked on
+
+2023-08-16 09:27:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Publish")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Publish' is clicked on
+
+2023-08-16 09:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Publish' is clicked on
+
+2023-08-16 09:27:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/p_Are you sure you want to submit this request"), "Are you sure you want to submit this request?"): Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/p_Are you sure you want to submit this request' are matched.
+
+2023-08-16 09:27:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/p_Are you sure you want to submit this request' are matched.
+
+2023-08-16 09:27:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Cancel")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Cancel' is clicked on
+
+2023-08-16 09:27:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Cancel' is clicked on
+
+2023-08-16 09:27:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Publish")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Publish' is clicked on
+
+2023-08-16 09:27:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Publish' is clicked on
+
+2023-08-16 09:27:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Confirmation modal_btn-close")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Confirmation modal_btn-close' is clicked on
+
+2023-08-16 09:27:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Confirmation modal_btn-close' is clicked on
+
+2023-08-16 09:27:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Publish")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Publish' is clicked on
+
+2023-08-16 09:27:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Publish' is clicked on
+
+2023-08-16 09:27:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Submit")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Submit' is clicked on
+
+2023-08-16 09:27:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Submit' is clicked on
+
+2023-08-16 09:27:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/h1_Successful"), "Successful"): Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/h1_Successful' are matched.
+
+2023-08-16 09:27:16 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/h1_Successful' are matched.
+
+2023-08-16 09:27:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Back to New Property Request")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Back to New Property Request' is clicked on
+
+2023-08-16 09:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Back to New Property Request' is clicked on
+
+2023-08-16 09:27:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/td_The Apartment 2"), "The Apartment " + randomint): Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/td_The Apartment 2' are matched.
+
+2023-08-16 09:27:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/td_The Apartment 2' are matched.
+
+2023-08-16 09:27:17 - [TEST_STEP][PASSED] - newdate = Date().format("dd/M/yyyy"): null
+
+2023-08-16 09:27:17 - [TEST_STEP][PASSED] - println(newdate): null
+
+2023-08-16 09:27:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/td_0282023"), newdate): Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/td_0282023' are matched.
+
+2023-08-16 09:27:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/td_0282023' are matched.
+
+2023-08-16 09:27:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_Pending"), "Pending"): Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_Pending' are matched.
+
+2023-08-16 09:27:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_Pending' are matched.
+
+2023-08-16 09:27:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Create New Property Request_form-cont_25d365"), "The Apartment " + randomint): Text 'The Apartment 6376' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Create New Property Request_form-cont_25d365'
+
+2023-08-16 09:27:19 - [MESSAGE][PASSED] - Text 'The Apartment 6376' is set on object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Create New Property Request_form-cont_25d365'
+
+2023-08-16 09:27:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Apply")): Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Apply' is clicked on
+
+2023-08-16 09:27:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Apply' is clicked on
+
+2023-08-16 09:27:19 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/td_The Apartment 2"), "The Apartment " + randomint): Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/td_The Apartment 2' are matched.
+
+2023-08-16 09:27:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/td_The Apartment 2' are matched.
+
+2023-08-16 09:27:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_Pending"), "Pending"): Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_Pending' are matched.
+
+2023-08-16 09:27:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_Pending' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-08-16 09:25:39 - [TEST_SUITE][PASSED] - Regression Test: Test Cases/New Property Master/Create New Property Master]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

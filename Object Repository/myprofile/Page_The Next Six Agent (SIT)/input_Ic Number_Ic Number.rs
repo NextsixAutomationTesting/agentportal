@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Ren ID_renId</name>
+   <name>input_Ic Number_Ic Number</name>
    <tag></tag>
-   <elementGuidId>e432fe93-610e-490b-b3f4-7320faa1d981</elementGuidId>
+   <elementGuidId>d83076c0-0ebb-452a-b964-bbbdb2b700ec</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#renId</value>
+         <key>BASIC</key>
+         <value>//*[@value = '960522-87-5012']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='renId']</value>
+         <value>//input[@id='Ic Number']</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'p-0 w-100 profile-input-text profile-text-medium fs-6' and @value = 'REN123']</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>1be7fe76-a4b7-4b6e-ab53-a8a85732398d</webElementGuid>
+      <webElementGuid>6e9a4cbf-1c6b-4730-b346-3d26c3d76a44</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,70 +33,86 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>d21fff0d-0844-4647-b705-eb65e3bc918e</webElementGuid>
+      <webElementGuid>af57bfbc-5eb1-4432-a92c-b80a63dc13d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Ic Number</value>
+      <webElementGuid>29ef63f6-ad95-40ae-bc2f-e215d9140313</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>renId</value>
-      <webElementGuid>01061bc9-379b-44cd-9911-977be381911a</webElementGuid>
+      <value>Ic Number</value>
+      <webElementGuid>1b5e8c8e-3f06-4579-bfa7-043bfd93b1c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Ic Number</value>
+      <webElementGuid>65480ade-0388-4110-bab9-61b90cf88936</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>p-0 w-100 profile-input-text profile-text-medium fs-6</value>
-      <webElementGuid>7c71c9a6-62c9-477b-9c96-bd599e581267</webElementGuid>
+      <value>form-control profile-input-trans profile-input-value profile-input-disabled profile-input-placeholder px-0</value>
+      <webElementGuid>384a7a10-4ae9-4a92-a4db-c5ed2729ec97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>REN123</value>
-      <webElementGuid>6cbb77e4-0aad-4521-88a1-a139f9af78bf</webElementGuid>
+      <value>960522-87-5012</value>
+      <webElementGuid>d8b460ce-7bb8-4c4f-89e2-ad60344c581c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;renId&quot;)</value>
-      <webElementGuid>469b938b-f381-47fb-b9f5-a7b062d74bfc</webElementGuid>
+      <value>id(&quot;Ic Number&quot;)</value>
+      <webElementGuid>a70fbf09-3a86-4908-827b-33ab6d99e01e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='renId']</value>
-      <webElementGuid>d170f7e3-875c-4175-b753-b5db268a61d1</webElementGuid>
+      <value>//input[@id='Ic Number']</value>
+      <webElementGuid>02153767-26e2-474f-a580-bd96b47991bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='kt_app_content_container']/div/div/div[2]/div/div/div/div[2]/div[4]/div/div/div/input</value>
-      <webElementGuid>11fc4c08-dd16-40c2-9282-0cd46a04cc75</webElementGuid>
+      <value>//div[@id='kt_app_content_container']/div/div/div[3]/div[2]/div[5]/div/div/div/input</value>
+      <webElementGuid>54e5392b-b32d-46ff-a177-c1dea289c393</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>673e38cf-78a9-4cb9-b52b-daef827d97a5</webElementGuid>
+      <value>//div[5]/div/div/div/input</value>
+      <webElementGuid>768c2563-901f-4791-89d1-43ee4367de12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value></value>
-      <webElementGuid>7b67d293-c09e-4c81-b626-a36d85d13522</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'Ic Number' and @id = 'Ic Number' and @placeholder = 'Ic Number']</value>
+      <webElementGuid>23af4af7-627f-4290-9c65-746fe2592ea5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

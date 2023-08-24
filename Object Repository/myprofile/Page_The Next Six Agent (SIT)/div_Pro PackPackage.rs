@@ -6,15 +6,19 @@
    <elementGuidId>915778d4-e1a2-419a-a231-81ca9b07765c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>div.col-6.col-sm-auto.profile-text-para.fs-7</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='kt_app_content_container']/div/div/div[2]/div/div/div/div[2]/div/div</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.col-6.col-sm-auto.profile-text-para.fs-7</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Pro PackPackage' or . = 'Pro PackPackage')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>407c6c2d-df52-48c3-a2ca-c771f79a1574</webElementGuid>
+      <webElementGuid>1d7e2997-4ddd-42f4-9be3-d5c75ac4908b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>col-6 col-sm-auto profile-text-para fs-7</value>
-      <webElementGuid>761e5758-a7d3-4f7b-a0a9-206a0973cc2f</webElementGuid>
+      <webElementGuid>8d46480d-7ef7-40d5-b680-ec03b9f8990c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Pro PackPackage</value>
-      <webElementGuid>d64bfd62-5449-4db1-b301-fb28e05f7cf2</webElementGuid>
+      <webElementGuid>706c618c-313e-4391-9d35-4ac0e1fd8888</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;kt_app_content_container&quot;)/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;page-statistic-wrapper&quot;]/div[@class=&quot;profile-wrapper-upper&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;profile-wrapper-subheader&quot;]/div[@class=&quot;row column-gap-4&quot;]/div[@class=&quot;col d-flex flex-column justify-content-between row-gap-3 row-gap-sm-0&quot;]/div[@class=&quot;row row-gap-3 row-gap-sm-0 justify-content-between&quot;]/div[@class=&quot;col-6 col-sm-auto profile-text-para fs-7&quot;]</value>
-      <webElementGuid>b6abc443-2751-424b-8761-7c7ff0940b33</webElementGuid>
+      <webElementGuid>63818304-aedf-44b2-92eb-01169a8fcda7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='kt_app_content_container']/div/div/div[2]/div/div/div/div[2]/div/div</value>
-      <webElementGuid>5b0b7f57-aad5-4982-8220-39780932dedf</webElementGuid>
+      <webElementGuid>5654c521-92b7-4173-8b81-59d037c3c54c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='...........'])[1]/following::div[9]</value>
-      <webElementGuid>dbdb1f66-dab7-47d2-b659-6a001daf4dc2</webElementGuid>
+      <webElementGuid>c349cbb3-39c1-41c3-94c8-be785c3dec8e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Profile'])[2]/following::div[11]</value>
-      <webElementGuid>0109dc76-4557-42bc-8bb5-1198b6f3b685</webElementGuid>
+      <webElementGuid>483f9c9e-bc47-415d-aad0-9bb064b28083</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Package']/parent::*</value>
-      <webElementGuid>ac3e5e62-bf7f-4411-ae1c-38d56300ad8f</webElementGuid>
+      <webElementGuid>34d66afc-b34e-498e-9aba-6f2df4360c80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div[2]/div/div/div/div[2]/div/div</value>
-      <webElementGuid>ff6488cc-3d86-495c-8a7d-e26d42ca5940</webElementGuid>
+      <webElementGuid>0bd2e433-7c09-49c9-adbd-1d448e53173e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Pro PackPackage' or . = 'Pro PackPackage')]</value>
-      <webElementGuid>1c0b21a4-005f-4675-8890-900771187288</webElementGuid>
+      <webElementGuid>dec9c422-8585-41b5-bcf8-077450193e6b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

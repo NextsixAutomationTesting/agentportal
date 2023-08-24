@@ -6,15 +6,18 @@
    <elementGuidId>714ef0cb-ba57-491e-b500-7e3920b577fe</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'New Property Request' or . = 'New Property Request')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='#kt_app_sidebar_menu']/div[4]/a/span[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>36f00b8d-ca5e-4c0d-888b-056e76983950</webElementGuid>
+      <webElementGuid>b33b43d9-d8c6-43ac-bf0d-98dd71908fed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>menu-title</value>
-      <webElementGuid>117f8458-a55b-41d4-9050-dd7f00ac1f23</webElementGuid>
+      <webElementGuid>bddb247e-5f01-471a-897e-1ccedcb4436b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>New Property Request</value>
-      <webElementGuid>5169c3e2-f409-41ed-8068-c1af153b9b17</webElementGuid>
+      <webElementGuid>b2889ee1-3904-4f51-b6d9-4edae4d23b2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;#kt_app_sidebar_menu&quot;)/div[@class=&quot;menu-item&quot;]/a[@class=&quot;menu-link without-sub&quot;]/span[@class=&quot;menu-title&quot;]</value>
-      <webElementGuid>9c6a2c98-ae25-4f83-82b8-15ec97bddb90</webElementGuid>
+      <webElementGuid>faf76940-11b1-4202-9680-721620664813</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='#kt_app_sidebar_menu']/div[4]/a/span[2]</value>
-      <webElementGuid>41fbb646-9f22-4b22-891c-c256afe07bc6</webElementGuid>
+      <webElementGuid>c5069b6c-7225-4490-b4e8-618691b87a5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Properties'])[1]/following::span[2]</value>
-      <webElementGuid>6b61c969-6e64-4a7d-b71c-996450bdd6c1</webElementGuid>
+      <webElementGuid>83ae03d9-66c8-4940-a062-524be0fe1ce6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Profile'])[1]/following::span[4]</value>
-      <webElementGuid>cbfc0ea2-ee8d-4752-bd39-a84a9c12857b</webElementGuid>
+      <webElementGuid>c2e58033-90dd-4ec3-8e5f-b4cc9928352a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms of Use'])[1]/preceding::span[2]</value>
-      <webElementGuid>c23fadab-0c23-45da-8481-c92b89f0510f</webElementGuid>
+      <webElementGuid>7e9bf846-f459-43ac-af1d-7250f02ee18b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::span[3]</value>
-      <webElementGuid>17bf354a-8f58-49fa-82ab-092b96da93a6</webElementGuid>
+      <webElementGuid>80580721-6988-41b9-8a6e-ee5dfeee567c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='New Property Request']/parent::*</value>
-      <webElementGuid>261250c7-f7b7-4365-9f4a-41eb8d463110</webElementGuid>
+      <webElementGuid>9618943a-a3f3-44c1-8f04-62d41d7faa01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/a/span[2]</value>
-      <webElementGuid>9649d739-84d9-4983-9b43-cd9b379ee28a</webElementGuid>
+      <webElementGuid>1040a1a8-755a-472a-99ab-2f9db82aae1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'New Property Request' or . = 'New Property Request')]</value>
-      <webElementGuid>ea9c2ca4-9d8b-4839-b06d-57774b9f3359</webElementGuid>
+      <webElementGuid>aafc6da0-51fd-4ef5-a93d-75792771ce7e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

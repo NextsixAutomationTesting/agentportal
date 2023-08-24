@@ -46,6 +46,10 @@ import com.kms.katalon.core.webservice.verification.WSResponseManager
 
 import groovy.json.JsonSlurper
 import internal.GlobalVariable as GlobalVariable
-</verificationScript>
+
+WS.verifyElementPropertyValue(response, 'streetArea', &quot;REN123&quot;)
+WS.verifyElementPropertyValue(response, 'renId', &quot;Male&quot;)
+WS.verifyElementPropertyValue(response, 'areaSpecialists[0].area', &quot;Selangor&quot;)
+WS.verifyElementPropertyValue(response, 'titledSpecialists[0].area', &quot;Selangor&quot;)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

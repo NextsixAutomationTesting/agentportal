@@ -1,0 +1,151 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test,Chrome 115.0.0.0,,,2023-08-21 09:26:56,2023-08-21 09:29:11,2m - 15.046s,PASSED
+,,,,,,,
+Test Cases/Login Module/Public Agent/Login,Chrome 115.0.0.0,,,2023-08-21 09:26:56,2023-08-21 09:27:09,12.821s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-21 09:26:57,2023-08-21 09:27:01,3.913s,PASSED
+"navigateToUrl(""https://sit-agent-v2.nextsix.com/"")",Chrome 115.0.0.0,,,2023-08-21 09:27:01,2023-08-21 09:27:02,0.887s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username""), ""ziqhru@gmail.com"")",Chrome 115.0.0.0,,,2023-08-21 09:27:02,2023-08-21 09:27:03,1.189s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password""), ""tzH6RvlfSTg="")",Chrome 115.0.0.0,,,2023-08-21 09:27:03,2023-08-21 09:27:03,0.548s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Sign In""))",Chrome 115.0.0.0,,,2023-08-21 09:27:03,2023-08-21 09:27:04,0.431s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/div_Invalid usernamepassword. Please try again""), ""Invalid username/password. Please try again"")",Chrome 115.0.0.0,,,2023-08-21 09:27:04,2023-08-21 09:27:04,0.638s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password""), Keys.chord(CONTROL, ""a""))",Chrome 115.0.0.0,,,2023-08-21 09:27:04,2023-08-21 09:27:05,0.436s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password""), Keys.chord(DELETE))",Chrome 115.0.0.0,,,2023-08-21 09:27:05,2023-08-21 09:27:05,0.423s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password""), ""HeCM15nHKBI="")",Chrome 115.0.0.0,,,2023-08-21 09:27:05,2023-08-21 09:27:06,0.430s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Sign In""))",Chrome 115.0.0.0,,,2023-08-21 09:27:06,2023-08-21 09:27:06,0.444s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com""), ""ziqhru@gmail.com"")",Chrome 115.0.0.0,,,2023-08-21 09:27:06,2023-08-21 09:27:08,1.429s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/img_Copyright  2020-2023. The Next Six Sdn._2664f6""), 0)",Chrome 115.0.0.0,,,2023-08-21 09:27:08,2023-08-21 09:27:08,0.453s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Logout""))",Chrome 115.0.0.0,,,2023-08-21 09:27:08,2023-08-21 09:27:09,0.526s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Sign In""), ""Sign In"")",Chrome 115.0.0.0,,,2023-08-21 09:27:09,2023-08-21 09:27:09,0.506s,PASSED
+,,,,,,,
+Test Cases/Login Module/Public Agent/Forgot password - Public Agent,Chrome 115.0.0.0,,,2023-08-21 09:27:09,2023-08-21 09:28:07,58.126s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-21 09:27:09,2023-08-21 09:27:12,2.924s,PASSED
+"navigateToUrl(""https://sit-agent-v2.nextsix.com/"")",Chrome 115.0.0.0,,,2023-08-21 09:27:12,2023-08-21 09:27:13,0.701s,PASSED
+"click(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/button_forgot password""))",Chrome 115.0.0.0,,,2023-08-21 09:27:13,2023-08-21 09:27:14,0.827s,PASSED
+"setText(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username""), ""testernext61@outlook.com"")",Chrome 115.0.0.0,,,2023-08-21 09:27:14,2023-08-21 09:27:15,1.191s,PASSED
+"click(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/submit""))",Chrome 115.0.0.0,,,2023-08-21 09:27:15,2023-08-21 09:27:17,1.729s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/successtext""), ""Password reset request was sent successfully. Please check your email to reset your password."")",Chrome 115.0.0.0,,,2023-08-21 09:27:17,2023-08-21 09:27:19,1.986s,PASSED
+"sendKeys(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username""), Keys.chord(CONTROL, ""a""))",Chrome 115.0.0.0,,,2023-08-21 09:27:19,2023-08-21 09:27:21,2.055s,PASSED
+"sendKeys(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username""), Keys.chord(DELETE))",Chrome 115.0.0.0,,,2023-08-21 09:27:21,2023-08-21 09:27:23,1.987s,PASSED
+"navigateToUrl(""https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=15&ct=1690958366&rver=7.0.6737.0&wp=MBI_SSL&wreply=https%3a%2f%2foutlook.live.com%2fowa%2f%3fcobrandid%3dab0455a0-8d03-46b9-b18b-df2f57b9e44c%26nlp%3d1%26deeplink%3dowa%252f%26RpsCsrfState%3d47550ee8-a8a1-75fe-368f-063c1837e2dd&id=292841&aadredir=1&CBCXT=out&lw=1&fl=dob%2cflname%2cwld&cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c"")",Chrome 115.0.0.0,,,2023-08-21 09:27:23,2023-08-21 09:27:24,0.823s,PASSED
+"setText(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/outlooklogin""), ""testernext61@outlook.com"")",Chrome 115.0.0.0,,,2023-08-21 09:27:24,2023-08-21 09:27:28,4.123s,PASSED
+"click(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/nextbutton""))",Chrome 115.0.0.0,,,2023-08-21 09:27:28,2023-08-21 09:27:29,1.340s,PASSED
+"setText(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/outlookpassword""), ""Next65678"")",Chrome 115.0.0.0,,,2023-08-21 09:27:29,2023-08-21 09:27:30,1.379s,PASSED
+"click(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/nextbutton""))",Chrome 115.0.0.0,,,2023-08-21 09:27:30,2023-08-21 09:27:31,0.662s,PASSED
+"click(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/button_no""))",Chrome 115.0.0.0,,,2023-08-21 09:27:31,2023-08-21 09:27:34,3.287s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-21 09:27:34,2023-08-21 09:27:36,2.054s,PASSED
+"click(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/Page_Email - tester next6 - Outlook/span_Reset your password""))",Chrome 115.0.0.0,,,2023-08-21 09:27:36,2023-08-21 09:27:53,17.053s,PASSED
+"click(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/Page_Email - tester next6 - Outlook/Page_Email - tester next6 - Outlook/a_Visit this link to reset your password""))",Chrome 115.0.0.0,,,2023-08-21 09:27:53,2023-08-21 09:27:58,4.020s,PASSED
+"switchToWindowIndex(""1"")",Chrome 115.0.0.0,,,2023-08-21 09:27:58,2023-08-21 09:27:58,0.122s,PASSED
+newpassword = RandomStringUtils.randomAlphabetic(6),Chrome 115.0.0.0,,,2023-08-21 09:27:58,2023-08-21 09:27:58,0.023s,PASSED
+"setText(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/newusername""), newpassword)",Chrome 115.0.0.0,,,2023-08-21 09:27:58,2023-08-21 09:27:59,1.350s,PASSED
+"setText(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/confirmpassword""), newpassword)",Chrome 115.0.0.0,,,2023-08-21 09:27:59,2023-08-21 09:28:00,0.888s,PASSED
+"click(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/submitbutton""))",Chrome 115.0.0.0,,,2023-08-21 09:28:00,2023-08-21 09:28:00,0.399s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/successfulmessage""), ""Successfully change password, please login via app."")",Chrome 115.0.0.0,,,2023-08-21 09:28:00,2023-08-21 09:28:01,0.463s,PASSED
+"switchToWindowIndex(""0"")",Chrome 115.0.0.0,,,2023-08-21 09:28:01,2023-08-21 09:28:01,0.021s,PASSED
+"click(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/deleteunbox""))",Chrome 115.0.0.0,,,2023-08-21 09:28:01,2023-08-21 09:28:01,0.552s,PASSED
+delay(2),Chrome 115.0.0.0,,,2023-08-21 09:28:01,2023-08-21 09:28:03,2.009s,PASSED
+"navigateToUrl(""https://sit-agent-v2.nextsix.com/"")",Chrome 115.0.0.0,,,2023-08-21 09:28:03,2023-08-21 09:28:04,0.453s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username""), ""testernext61@outlook.com"")",Chrome 115.0.0.0,,,2023-08-21 09:28:04,2023-08-21 09:28:05,1.242s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password""), newpassword)",Chrome 115.0.0.0,,,2023-08-21 09:28:05,2023-08-21 09:28:06,0.687s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In""))",Chrome 115.0.0.0,,,2023-08-21 09:28:06,2023-08-21 09:28:06,0.397s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com""), ""testernext61@outlook.com"")",Chrome 115.0.0.0,,,2023-08-21 09:28:06,2023-08-21 09:28:07,1.105s,PASSED
+,,,,,,,
+Test Cases/Login Module/Register Here Link,Chrome 115.0.0.0,,,2023-08-21 09:28:07,2023-08-21 09:28:16,8.303s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-21 09:28:08,2023-08-21 09:28:10,2.937s,PASSED
+"navigateToUrl(""https://sit-agent-v2.nextsix.com/"")",Chrome 115.0.0.0,,,2023-08-21 09:28:10,2023-08-21 09:28:11,0.773s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/a_Register here""))",Chrome 115.0.0.0,,,2023-08-21 09:28:11,2023-08-21 09:28:12,0.917s,PASSED
+switchToWindowIndex(1),Chrome 115.0.0.0,,,2023-08-21 09:28:12,2023-08-21 09:28:12,0.040s,PASSED
+"switchToWindowTitle(""Property Website in Malaysia for Buy, Sell or Rent | Nextsix"")",Chrome 115.0.0.0,,,2023-08-21 09:28:12,2023-08-21 09:28:14,2.301s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_Property Website in Malaysia for Buy, _648e38/a_Agent Login""), ""Agent Login"")",Chrome 115.0.0.0,,,2023-08-21 09:28:14,2023-08-21 09:28:15,0.525s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_Property Website in Malaysia for Buy, _648e38/a_Lucky Draw""), ""Lucky Draw"")",Chrome 115.0.0.0,,,2023-08-21 09:28:15,2023-08-21 09:28:16,0.519s,PASSED
+,,,,,,,
+Test Cases/Login Module/TRR/Login,Chrome 115.0.0.0,,,2023-08-21 09:28:16,2023-08-21 09:28:29,13.931s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-21 09:28:16,2023-08-21 09:28:19,2.656s,PASSED
+"navigateToUrl(""https://sit-agent-v2.nextsix.com/"")",Chrome 115.0.0.0,,,2023-08-21 09:28:19,2023-08-21 09:28:20,0.659s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/label_User Name  Email Address""), ""USER NAME / EMAIL ADDRESS"")",Chrome 115.0.0.0,,,2023-08-21 09:28:20,2023-08-21 09:28:20,0.710s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username""), """")",Chrome 115.0.0.0,,,2023-08-21 09:28:20,2023-08-21 09:28:21,0.366s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/label_Password""), ""PASSWORD"")",Chrome 115.0.0.0,,,2023-08-21 09:28:21,2023-08-21 09:28:21,0.346s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password""), """")",Chrome 115.0.0.0,,,2023-08-21 09:28:21,2023-08-21 09:28:21,0.323s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/button_forgot password""), ""forgot password"")",Chrome 115.0.0.0,,,2023-08-21 09:28:21,2023-08-21 09:28:22,0.359s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In""), ""Sign In"")",Chrome 115.0.0.0,,,2023-08-21 09:28:22,2023-08-21 09:28:22,0.348s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/span_Dont have an account yetRegister here""), ""Don't have an account yet? Register here"")",Chrome 115.0.0.0,,,2023-08-21 09:28:22,2023-08-21 09:28:22,0.335s,PASSED
+"setText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username""), ""Ziqh"")",Chrome 115.0.0.0,,,2023-08-21 09:28:22,2023-08-21 09:28:23,0.783s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password""), ""YC0926CP/9Y="")",Chrome 115.0.0.0,,,2023-08-21 09:28:23,2023-08-21 09:28:24,0.463s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In""))",Chrome 115.0.0.0,,,2023-08-21 09:28:24,2023-08-21 09:28:24,0.391s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password""), Keys.chord(CONTROL, ""a""))",Chrome 115.0.0.0,,,2023-08-21 09:28:24,2023-08-21 09:28:25,0.716s,PASSED
+"sendKeys(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password""), Keys.chord(DELETE))",Chrome 115.0.0.0,,,2023-08-21 09:28:25,2023-08-21 09:28:25,0.402s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 115.0.0.0,,,2023-08-21 09:28:25,2023-08-21 09:28:25,0.423s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/span_Sign In""))",Chrome 115.0.0.0,,,2023-08-21 09:28:26,2023-08-21 09:28:26,0.395s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/p_Ziqh""), ""Ziqh"")",Chrome 115.0.0.0,,,2023-08-21 09:28:26,2023-08-21 09:28:28,2.255s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/p_ziqhrugmail.com""), ""ziqhru@gmail.com"")",Chrome 115.0.0.0,,,2023-08-21 09:28:28,2023-08-21 09:28:29,0.427s,PASSED
+"click(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Logout""))",Chrome 115.0.0.0,,,2023-08-21 09:28:29,2023-08-21 09:28:29,0.468s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/span_Sign In""), ""Sign In"")",Chrome 115.0.0.0,,,2023-08-21 09:28:29,2023-08-21 09:28:29,0.449s,PASSED
+,,,,,,,
+Test Cases/Login Module/TRR/Forgot password -TRR,Chrome 115.0.0.0,,,2023-08-21 09:28:30,2023-08-21 09:28:36,6.539s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-21 09:28:30,2023-08-21 09:28:32,2.610s,PASSED
+"navigateToUrl(""https://sit-agent-v2.nextsix.com/"")",Chrome 115.0.0.0,,,2023-08-21 09:28:32,2023-08-21 09:28:33,0.622s,PASSED
+"click(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/button_forgot password""))",Chrome 115.0.0.0,,,2023-08-21 09:28:33,2023-08-21 09:28:34,0.855s,PASSED
+"setText(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username""), ""Ziqh"")",Chrome 115.0.0.0,,,2023-08-21 09:28:34,2023-08-21 09:28:35,0.820s,PASSED
+"click(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/span_Submit""))",Chrome 115.0.0.0,,,2023-08-21 09:28:35,2023-08-21 09:28:35,0.369s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/div_Please contact system administrator to _a0651c""), ""Please contact system administrator to reset password."")",Chrome 115.0.0.0,,,2023-08-21 09:28:35,2023-08-21 09:28:36,0.555s,PASSED
+"clearText(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username - Copy""))",Chrome 115.0.0.0,,,2023-08-21 09:28:36,2023-08-21 09:28:36,0.403s,PASSED
+,,,,,,,
+Test Cases/New Property Master/Create New Property Master,Chrome 115.0.0.0,,,2023-08-21 09:28:36,2023-08-21 09:29:11,34.928s,PASSED
+"openBrowser("""")",Chrome 115.0.0.0,,,2023-08-21 09:28:36,2023-08-21 09:28:39,2.554s,PASSED
+"navigateToUrl(""https://sit-agent-v2.nextsix.com/"")",Chrome 115.0.0.0,,,2023-08-21 09:28:39,2023-08-21 09:28:39,0.657s,PASSED
+"setText(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_User Name  Email Address_username""), ""Ziqh"")",Chrome 115.0.0.0,,,2023-08-21 09:28:39,2023-08-21 09:28:41,1.178s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Password_password""), ""aeHFOx8jV/A="")",Chrome 115.0.0.0,,,2023-08-21 09:28:41,2023-08-21 09:28:41,0.436s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Sign In""))",Chrome 115.0.0.0,,,2023-08-21 09:28:41,2023-08-21 09:28:41,0.356s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_New Property Request""))",Chrome 115.0.0.0,,,2023-08-21 09:28:41,2023-08-21 09:28:44,2.141s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_New Property Request""), ""New Property Request"")",Chrome 115.0.0.0,,,2023-08-21 09:28:44,2023-08-21 09:28:44,0.669s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Create New Property Request""))",Chrome 115.0.0.0,,,2023-08-21 09:28:44,2023-08-21 09:28:45,0.479s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/p_NOTE Only make new request if the propert_38fa62""), ""NOTE: Only make new request if the property is high rise (Apartment, Flat, Condominium or Service Residence)"")",Chrome 115.0.0.0,,,2023-08-21 09:28:45,2023-08-21 09:28:45,0.516s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Property Name""))",Chrome 115.0.0.0,,,2023-08-21 09:28:45,2023-08-21 09:28:46,0.389s,PASSED
+"setText(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName""), ""Kuchai Avenue"")",Chrome 115.0.0.0,,,2023-08-21 09:28:46,2023-08-21 09:28:46,0.754s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next""))",Chrome 115.0.0.0,,,2023-08-21 09:28:46,2023-08-21 09:28:47,0.623s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/verifyduplicate""), ""Property Name is not unique"")",Chrome 115.0.0.0,,,2023-08-21 09:28:47,2023-08-21 09:28:48,0.584s,PASSED
+"sendKeys(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName""), Keys.chord(CONTROL, ""a""))",Chrome 115.0.0.0,,,2023-08-21 09:28:48,2023-08-21 09:28:48,0.397s,PASSED
+"sendKeys(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName""), Keys.chord(DELETE))",Chrome 115.0.0.0,,,2023-08-21 09:28:48,2023-08-21 09:28:48,0.406s,PASSED
+"setText(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName""), ""kucHAI avenue"")",Chrome 115.0.0.0,,,2023-08-21 09:28:48,2023-08-21 09:28:49,0.899s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next""))",Chrome 115.0.0.0,,,2023-08-21 09:28:49,2023-08-21 09:28:50,0.520s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/verifyduplicate""), ""Property Name is not unique"")",Chrome 115.0.0.0,,,2023-08-21 09:28:50,2023-08-21 09:28:50,0.593s,PASSED
+"sendKeys(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName""), Keys.chord(CONTROL, ""a""))",Chrome 115.0.0.0,,,2023-08-21 09:28:50,2023-08-21 09:28:51,0.353s,PASSED
+"sendKeys(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName""), Keys.chord(DELETE))",Chrome 115.0.0.0,,,2023-08-21 09:28:51,2023-08-21 09:28:51,0.351s,PASSED
+random = new java.util.Random(),Chrome 115.0.0.0,,,2023-08-21 09:28:51,2023-08-21 09:28:51,0.003s,PASSED
+min = 1,Chrome 115.0.0.0,,,2023-08-21 09:28:51,2023-08-21 09:28:51,0.000s,PASSED
+max = 10000,Chrome 115.0.0.0,,,2023-08-21 09:28:51,2023-08-21 09:28:51,0.000s,PASSED
+randomint = min + random.nextInt(max - min),Chrome 115.0.0.0,,,2023-08-21 09:28:51,2023-08-21 09:28:51,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Property Name_propName""), ""The Apartment "" + randomint)",Chrome 115.0.0.0,,,2023-08-21 09:28:51,2023-08-21 09:28:52,0.928s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Property Category""))",Chrome 115.0.0.0,,,2023-08-21 09:28:52,2023-08-21 09:28:53,0.616s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_ApartmentFlat""))",Chrome 115.0.0.0,,,2023-08-21 09:28:53,2023-08-21 09:28:53,0.509s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Property Type""))",Chrome 115.0.0.0,,,2023-08-21 09:28:53,2023-08-21 09:28:54,0.610s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Apartment""))",Chrome 115.0.0.0,,,2023-08-21 09:28:54,2023-08-21 09:28:54,0.483s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Next""))",Chrome 115.0.0.0,,,2023-08-21 09:28:54,2023-08-21 09:28:55,0.567s,PASSED
+"setText(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Address Line 1_propAddressLine1""), ""Jalan Tiara Sendayan 2, Taman Tiara Sendayan"")",Chrome 115.0.0.0,,,2023-08-21 09:28:55,2023-08-21 09:28:56,1.210s,PASSED
+"setText(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_City_propCity""), ""Labu"")",Chrome 115.0.0.0,,,2023-08-21 09:28:56,2023-08-21 09:28:57,0.966s,PASSED
+"setText(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Postcode_propPostcode""), ""71900"")",Chrome 115.0.0.0,,,2023-08-21 09:28:57,2023-08-21 09:28:58,1.016s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select State""))",Chrome 115.0.0.0,,,2023-08-21 09:28:58,2023-08-21 09:28:59,0.601s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Negeri Sembilan""))",Chrome 115.0.0.0,,,2023-08-21 09:28:59,2023-08-21 09:28:59,0.530s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select Area""))",Chrome 115.0.0.0,,,2023-08-21 09:28:59,2023-08-21 09:29:00,0.535s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Labu""))",Chrome 115.0.0.0,,,2023-08-21 09:29:00,2023-08-21 09:29:00,0.498s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select All""))",Chrome 115.0.0.0,,,2023-08-21 09:29:00,2023-08-21 09:29:01,0.489s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Deselect All""))",Chrome 115.0.0.0,,,2023-08-21 09:29:01,2023-08-21 09:29:01,0.480s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/div_Select All""))",Chrome 115.0.0.0,,,2023-08-21 09:29:01,2023-08-21 09:29:02,0.466s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Publish""))",Chrome 115.0.0.0,,,2023-08-21 09:29:02,2023-08-21 09:29:02,0.500s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/p_Are you sure you want to submit this request""), ""Are you sure you want to submit this request?"")",Chrome 115.0.0.0,,,2023-08-21 09:29:02,2023-08-21 09:29:03,0.655s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Cancel""))",Chrome 115.0.0.0,,,2023-08-21 09:29:03,2023-08-21 09:29:03,0.392s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Publish""))",Chrome 115.0.0.0,,,2023-08-21 09:29:03,2023-08-21 09:29:04,0.817s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Confirmation modal_btn-close""))",Chrome 115.0.0.0,,,2023-08-21 09:29:04,2023-08-21 09:29:05,0.718s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Publish""))",Chrome 115.0.0.0,,,2023-08-21 09:29:05,2023-08-21 09:29:06,0.796s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Submit""))",Chrome 115.0.0.0,,,2023-08-21 09:29:06,2023-08-21 09:29:06,0.709s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/h1_Successful""), ""Successful"")",Chrome 115.0.0.0,,,2023-08-21 09:29:06,2023-08-21 09:29:07,1.110s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Back to New Property Request""))",Chrome 115.0.0.0,,,2023-08-21 09:29:07,2023-08-21 09:29:08,0.373s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/td_The Apartment 2""), ""The Apartment "" + randomint)",Chrome 115.0.0.0,,,2023-08-21 09:29:08,2023-08-21 09:29:08,0.606s,PASSED
+"newdate = Date().format(""dd/M/yyyy"")",Chrome 115.0.0.0,,,2023-08-21 09:29:08,2023-08-21 09:29:08,0.009s,PASSED
+println(newdate),Chrome 115.0.0.0,,,2023-08-21 09:29:08,2023-08-21 09:29:08,0.006s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/td_0282023""), newdate)",Chrome 115.0.0.0,,,2023-08-21 09:29:08,2023-08-21 09:29:09,0.337s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_Pending""), ""Pending"")",Chrome 115.0.0.0,,,2023-08-21 09:29:09,2023-08-21 09:29:09,0.323s,PASSED
+"setText(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/input_Create New Property Request_form-cont_25d365""), ""The Apartment "" + randomint)",Chrome 115.0.0.0,,,2023-08-21 09:29:09,2023-08-21 09:29:10,0.708s,PASSED
+"click(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/button_Apply""))",Chrome 115.0.0.0,,,2023-08-21 09:29:10,2023-08-21 09:29:10,0.380s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/td_The Apartment 2""), ""The Apartment "" + randomint)",Chrome 115.0.0.0,,,2023-08-21 09:29:10,2023-08-21 09:29:11,0.554s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Create new property master/Page_The Next Six Agent (SIT)/span_Pending""), ""Pending"")",Chrome 115.0.0.0,,,2023-08-21 09:29:11,2023-08-21 09:29:11,0.328s,PASSED

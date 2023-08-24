@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Ren ID_renId</name>
+   <name>input_Passport Number_Passport Number</name>
    <tag></tag>
-   <elementGuidId>83a60ce6-325e-4a9e-8344-70bd0cecf4a1</elementGuidId>
+   <elementGuidId>8190cb8f-1006-4ff2-b44e-78ef96160ef2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//input[@id='renId']</value>
+         <value>//input[@id='Passport Number']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#renId</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,78 +25,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>bb84261b-cf38-4c31-bb21-7d0069a130b0</webElementGuid>
+      <webElementGuid>e60c612c-2160-4c89-874f-8a76e5de4a37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>075a5ee0-3c58-457f-8eb3-88f7e05430ef</webElementGuid>
+      <webElementGuid>010121c9-00cc-4b19-a41a-032287c5708c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Passport Number</value>
+      <webElementGuid>21a4a39b-5f57-4c4a-bae7-85d7cb2759ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>renId</value>
-      <webElementGuid>d526dd21-01a3-4b3a-a6a9-15f0d2c85fd2</webElementGuid>
+      <value>Passport Number</value>
+      <webElementGuid>32a4654b-281a-47f6-a247-8c96b42e8635</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Passport Number</value>
+      <webElementGuid>3652d9e7-df12-4c9f-b732-afb69583c646</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>p-0 w-100 profile-input-text profile-text-medium fs-6</value>
-      <webElementGuid>c8017299-17af-414e-9380-62f7add2663c</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>REN123</value>
-      <webElementGuid>6db24fb5-f6aa-4c4e-ba4d-af0bf3f3ef70</webElementGuid>
+      <value>form-control profile-input-trans profile-input-value profile-input-disabled profile-input-placeholder px-0</value>
+      <webElementGuid>b87f0cc8-7dfd-48b1-8adf-004f46727697</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;renId&quot;)</value>
-      <webElementGuid>1f23830f-ec30-47aa-b044-3d2aa576146e</webElementGuid>
+      <value>id(&quot;Passport Number&quot;)</value>
+      <webElementGuid>e942ab8f-0063-4c26-8f15-67abae4a4293</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='renId']</value>
-      <webElementGuid>7eff2b3d-e533-42db-958e-607cc254c9fd</webElementGuid>
+      <value>//input[@id='Passport Number']</value>
+      <webElementGuid>41dfe7b2-608d-456c-902c-5e4ca8dcb064</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='kt_app_content_container']/div/div/div[2]/div/div/div/div[2]/div[3]/div/div/div/input</value>
-      <webElementGuid>d25d0001-ae6f-47dd-b0e9-8414323d2759</webElementGuid>
+      <value>//div[@id='kt_app_content_container']/div/div/div[3]/div[2]/div[5]/div[2]/div/div/input</value>
+      <webElementGuid>1d08970f-2aaa-46dd-8312-62e70e0883c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>a44040d6-c56c-47f6-bdcf-e8de6ca6d011</webElementGuid>
+      <value>//div[5]/div[2]/div/div/input</value>
+      <webElementGuid>3fcde8a5-4a68-4ef5-814d-e55b7483fc57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'renId']</value>
-      <webElementGuid>5b7c9a5e-d3cd-4cde-be88-e78da06ea036</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'Passport Number' and @id = 'Passport Number' and @placeholder = 'Passport Number']</value>
+      <webElementGuid>ea3457f1-8b59-477a-a4e6-65ed08da18ee</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

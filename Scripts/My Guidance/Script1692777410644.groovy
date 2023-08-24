@@ -17,18 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://sit-agent-v2.nextsix.com/')
-
-WebUI.click(findTestObject('Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/button_forgot password'))
-
-WebUI.setText(findTestObject('Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/Page_The Next Six Agent (SIT)/input_User Name_username'), 
-    'Ziqh')
-
-WebUI.click(findTestObject('Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/span_Submit'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/div_Please contact system administrator to _a0651c'), 
-    'Please contact system administrator to reset password.')
-
-WebUI.clearText(findTestObject('Object Repository/Forgot Password/Page_The Next Six Agent (SIT)/input_User Name_username - Copy'))

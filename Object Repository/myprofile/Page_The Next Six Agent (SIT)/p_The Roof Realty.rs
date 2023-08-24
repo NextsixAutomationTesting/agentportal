@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_The Roof Realty</name>
+   <tag></tag>
+   <elementGuidId>3e3ba0ee-5af3-4102-b1db-a6264cfd453d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='kt_app_content_container']/div/div/div[2]/div/div/div/div[2]/div/div[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>854b681e-45be-415c-8455-0d0a0da4bbdc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mb-0 profile-text-black profile-text-medium fs-6</value>
+      <webElementGuid>527ea5cc-984f-488e-84ad-913dc4fcdcf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The Roof Realty</value>
+      <webElementGuid>cc50def9-65d1-4a4b-b2ec-ccbc017c9a94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kt_app_content_container&quot;)/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;page-statistic-wrapper&quot;]/div[@class=&quot;profile-wrapper-upper&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;profile-wrapper-subheader&quot;]/div[@class=&quot;row column-gap-4&quot;]/div[@class=&quot;col d-flex flex-column justify-content-between row-gap-3 row-gap-sm-0&quot;]/div[@class=&quot;row row-gap-3 row-gap-sm-0 justify-content-between&quot;]/div[@class=&quot;col-6 col-sm-auto profile-text-para fs-7&quot;]/p[@class=&quot;mb-0 profile-text-black profile-text-medium fs-6&quot;]</value>
+      <webElementGuid>ebaee461-ce89-4ac5-8b8a-2c6a52a614c6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='kt_app_content_container']/div/div/div[2]/div/div/div/div[2]/div/div[2]/p</value>
+      <webElementGuid>bc496f21-a083-4850-9421-d773c64370c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='The Roof Realty']/parent::*</value>
+      <webElementGuid>cf49d2b1-0613-406c-b18a-3631a1cef380</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/p</value>
+      <webElementGuid>84dabec3-0249-4252-90c6-c4361402ee92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'The Roof Realty' or . = 'The Roof Realty')]</value>
+      <webElementGuid>7b16b014-bc49-4a4d-9645-3417c9eef34d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

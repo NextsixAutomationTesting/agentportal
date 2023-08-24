@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Alam Impian</name>
+   <tag></tag>
+   <elementGuidId>eaf9f32c-98e1-4bc2-b9ba-573ddec646e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='kt_app_content_container']/div/div/div[2]/div/div/div/div[2]/div[3]/div/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.profile-text-para.mb-0.fs-7</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>73b7c218-cce9-4090-aa9d-16905ae63472</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>profile-text-para mb-0 fs-7</value>
+      <webElementGuid>8fbbaa6a-7850-4675-8b6d-a10b7c547d73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Alam Impian</value>
+      <webElementGuid>b3c46c14-5ad4-40c6-835c-271fa1b4ed2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kt_app_content_container&quot;)/div[@class=&quot;page-wrapper&quot;]/div[@class=&quot;page-statistic-wrapper&quot;]/div[@class=&quot;profile-wrapper-upper&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;profile-wrapper-subheader&quot;]/div[@class=&quot;row column-gap-4&quot;]/div[@class=&quot;col d-flex flex-column justify-content-between row-gap-3 row-gap-sm-0&quot;]/div[@class=&quot;row align-items-center&quot;]/div[@class=&quot;col-6 order-1&quot;]/p[@class=&quot;profile-text-para mb-0 fs-7&quot;]</value>
+      <webElementGuid>1d34f4d5-334b-45c1-ba24-6e5b589a6a98</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='kt_app_content_container']/div/div/div[2]/div/div/div/div[2]/div[3]/div/p</value>
+      <webElementGuid>25780a27-9a77-4053-b3e9-119765d769a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Area Specialist'])[1]/following::p[1]</value>
+      <webElementGuid>ce78f762-35c5-474c-8dc9-445330789ac3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Title Specialist'])[1]/preceding::p[1]</value>
+      <webElementGuid>8805e1f5-6616-4842-baa8-0dfc20a50e7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ren ID'])[1]/preceding::p[2]</value>
+      <webElementGuid>6edb20a9-2151-4916-9f0e-88f02c8ef8d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Alam Impian']/parent::*</value>
+      <webElementGuid>74c07fc4-94ed-455f-927d-97ed1962672d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/p</value>
+      <webElementGuid>b1c44f8a-c482-4fae-af1c-63d8b3823998</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Alam Impian' or . = 'Alam Impian')]</value>
+      <webElementGuid>5e951bd0-61e6-4dd1-a6a1-67a6ee6183fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
